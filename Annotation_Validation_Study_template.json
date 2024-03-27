@@ -270,7 +270,7 @@
                     "overrides": null
                 },
                 "NewScoring": 1,
-                "SurveyMetaDescription": "The most powerful, simple and trusted way to gather experience data. Start your journey to experience management and try a free account today.",
+                "SurveyMetaDescription": "Qualtrics surveys",
                 "ProtectSelectionIds": true,
                 "CustomStyles": [],
                 "EOSMessage": null,
@@ -399,7 +399,7 @@
             "SecondaryAttribute": "Below is the scenario you will be asked to evaluate. Scenario: My older sister (23) has a dog and...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below is the scenario you will be asked to evaluate.<br \/>\n<br \/>\n<em><strong><u>Scenario<\/u>: <div id='scenario'>My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before she got it as i knew she wasn&rsquo;t ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I&rsquo;m baffled as to why she cant train it or take care of it. I don&rsquo;t think she is fit to have this dog and I think the dog would have a better life in another home, I just can&#39;t bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.<\/div><\/strong><\/em><br \/>\n<em><strong><u>Action Choice<\/u>: <div id='choice'>I choose to&nbsp;refuse to take care of the dog unless my sister steps up and takes responsibility.<\/div><\/strong><\/em>",
+                "QuestionText": "Below is the scenario you will be asked to evaluate.<br \/>\n<br \/>\n<em><strong><u>Scenario<\/u>: <div id='scenario'>SCENARIO_TEXT<\/div><\/strong><\/em><br \/>\n<em><strong><u>Action Choice<\/u>: <div id='choice'>I choose to&nbsp;refuse to take care of the dog unless my sister steps up and takes responsibility.<\/div><\/strong><\/em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -412,7 +412,7 @@
                     "QuestionDescriptionOption": "UseText",
                     "IncludeDescription": "OFF"
                 },
-                "QuestionDescription": "Below is the scenario you will be asked to evaluate. Scenario: My older sister (23) has a dog and...",
+                "QuestionDescription": "Below is the scenario you will be asked to evaluate.",
                 "ChoiceOrder": [],
                 "Validation": {
                     "Settings": {
@@ -434,10 +434,10 @@
             "SurveyID": "SV_4O2qZpQLFc8wlOC",
             "Element": "SQ",
             "PrimaryAttribute": "QID25",
-            "SecondaryAttribute": "Below you will see the scenario, action choice, and outcome: Scenario: My older sister (23) has a...",
+            "SecondaryAttribute": "Below you will see the scenario, action choice, and outcome",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome<\/span>:<br \/>\n<br \/>\n<em><strong><u>Scenario<\/u>: <div id='scenario'>My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before she got it as i knew she wasn&rsquo;t ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I&rsquo;m baffled as to why she cant train it or take care of it. I don&rsquo;t think she is fit to have this dog and I think the dog would have a better life in another home, I just can&#39;t bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.<\/div><\/strong><\/em><br \/>\n<em><strong><u>Action Choice<\/u>: <div id='choice'>I choose to&nbsp;refuse to take care of the dog unless my sister steps up and takes responsibility.<\/div><br \/>\n<span style=\"color:#8e44ad;\"><u>Outcome<\/u>:<div id='outcome'>${lm:\/\/Field\/1}<\/div><\/span><\/strong><\/em>",
+                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome<\/span>:<br \/>\n<br \/>\n<em><strong><u>Scenario<\/u>: <div id='scenario'>SCENARIO_TEXT<\/div><br \/>\n<span style=\"color:#8e44ad;\"><u>Outcome<\/u>:<div id='outcome'>${lm:\/\/Field\/1}<\/div><\/span><\/strong><\/em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -450,7 +450,7 @@
                     "QuestionDescriptionOption": "UseText",
                     "IncludeDescription": "OFF"
                 },
-                "QuestionDescription": "Below you will see the scenario, action choice, and outcome: Scenario: My older sister (23) has a...",
+                "QuestionDescription": "Below you will see the scenario, action choice, and outcome",
                 "ChoiceOrder": [],
                 "Validation": {
                     "Settings": {
@@ -472,10 +472,10 @@
             "SurveyID": "SV_4O2qZpQLFc8wlOC",
             "Element": "SQ",
             "PrimaryAttribute": "QID6",
-            "SecondaryAttribute": "CONSENT You are being asked to take part in a research study. Before you decide to participate in...",
+            "SecondaryAttribute": "CONSENT You are being asked to take part in a research study.",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "<strong>CONSENT<\/strong><br>\nYou are being asked to take part in a research study. Before you decide to participate in this study, it is important that you understand why the research is being done and what it will involve. Please read the following information carefully. Please ask the researcher if there is anything that is not clear or if you need more information. The purpose of this study is to understand how people think about complex real world social problems.&nbsp;<br>\n<br>\n<strong>RISKS<\/strong><br>\nThe primary risk is that you are exposed to emotionally painful scenarios in text. Some content you read may be disturbing: text describing emotional and physical harm. These scenarios are pulled directly from Reddit's Am I the Asshole forum, and you can navigate there to get a sense for what content may be presented.&nbsp;You may decline to answer any or all questions and you may terminate your involvement at any time if you choose.<br>\n<br>\n<strong>BENEFITS<\/strong><br>\nApart from payment, there will be no direct benefit to you for your participation in this study. However, we hope that the information obtained from this study may benefit the field of psychology.<br>\n<br>\n<strong>CONFIDENTIALITY<\/strong><br>\nYour responses to this survey will be anonymous. Please do not write any identifying information on your survey.<br>\n<br>\n<strong>VOLUNTARY PARTICIPATION<\/strong><br>\nYour participation in this study is voluntary. It is up to you to decide whether or not to take part in this study. You may withdraw at any time and without giving a reason. Withdrawing will not affect your compensation for participation.&nbsp;<br>\n&nbsp;<br>\nIf you opt in to the survey, have any questions regarding your participation, where your data lives, and what it is used for, please contact the researcher at research@objective.is<br>\n<br>\nBy clicking below, you confirm you have read this consent statement in full, and agree to move forward.<br>\n&nbsp;",
+                "QuestionText": "<strong>CONSENT<\/strong><br>\nYou are being asked to take part in a research study. Before you decide to participate in this study, it is important that you understand why the research is being done and what it will involve. Please read the following information carefully. Please ask the researcher if there is anything that is not clear or if you need more information. The purpose of this study is to understand how people think about complex real world social problems.&nbsp;<br>\n<br>\n<strong>RISKS<\/strong><br>\nThe primary risk is that you are exposed to emotionally painful scenarios in text. Some content you read may be disturbing: text describing emotional and physical harm. These scenarios are pulled directly from Reddit's Am I the Asshole forum, and you can navigate there to get a sense for what content may be presented.&nbsp;You may decline to answer any or all questions and you may terminate your involvement at any time if you choose.<br>\n<br>\n<strong>BENEFITS<\/strong><br>\nApart from payment, there will be no direct benefit to you for your participation in this study. However, we hope that the information obtained from this study may benefit the field of psychology.<br>\n<br>\n<strong>CONFIDENTIALITY<\/strong><br>\nYour responses to this survey will be anonymous. Please do not write any identifying information on your survey.<br>\n<br>\n<strong>VOLUNTARY PARTICIPATION<\/strong><br>\nYour participation in this study is voluntary. It is up to you to decide whether or not to take part in this study. You may withdraw at any time and without giving a reason. Withdrawing will not affect your compensation for participation.&nbsp;<br>\n&nbsp;<br>\nIf you opt in to the survey, have any questions regarding your participation, where your data lives, and what it is used for, please contact the researcher at research@objective.is<br>\n<br>\nBy clicking below, you confirm you have read this consent statement in full, and agree to move forward.<br>",
                 "DefaultChoices": false,
                 "DataExportTag": "consent",
                 "QuestionID": "QID6",
@@ -489,7 +489,7 @@
                 "Configuration": {
                     "QuestionDescriptionOption": "UseText"
                 },
-                "QuestionDescription": "CONSENT You are being asked to take part in a research study. Before you decide to participate in...",
+                "QuestionDescription": "CONSENT You are being asked to take part in a research study.",
                 "Choices": {
                     "4": {
                         "Display": "I have read the consent form and agree to participate."
@@ -545,42 +545,42 @@
                     "NotApplicable": false,
                     "MobileFirst": true,
                     "SliderStartPositions": {
-                        "4": 0.49938499384993850771508050456759519875049591064453125,
-                        "5": 0.49815498154981552314524151370278559625148773193359375,
-                        "6": 0.50061500615006149228491949543240480124950408935546875,
-                        "7": 0.50184501845018447685475848629721440374851226806640625,
-                        "9": 0.50061500615006149228491949543240480124950408935546875,
-                        "10": 0.50061500615006149228491949543240480124950408935546875
+                        "1": 0.5,
+                        "2": 0.5,
+                        "3": 0.5,
+                        "4": 0.5,
+                        "5": 0.5,
+                        "6": 0.5
                     }
                 },
                 "QuestionDescription": "For each of the sentient beings below, please indicate whether this outcome would have a good or...",
                 "Choices": {
-                    "4": {
+                    "1": {
                         "Display": "dog"
                     },
-                    "5": {
+                    "2": {
                         "Display": "mother"
                     },
-                    "6": {
+                    "3": {
                         "Display": "younger sister (13)"
                     },
-                    "7": {
+                    "4": {
                         "Display": "older sister's boyfriend"
                     },
-                    "9": {
+                    "5": {
                         "Display": "older sister (23)"
                     },
-                    "10": {
+                    "6": {
                         "Display": "the narrator of the story (\"I\", \"me\", etc)"
                     }
                 },
                 "ChoiceOrder": [
-                    "9",
+                    "1",
+                    "2",
+                    "3",
                     "4",
                     "5",
-                    "6",
-                    "7",
-                    "10"
+                    "6"
                 ],
                 "Validation": {
                     "Settings": {
@@ -640,29 +640,29 @@
                     "1": {
                         "Display": "the narrator of the story (\"I\", \"me\", etc)"
                     },
-                    "4": {
+                    "2": {
                         "Display": "dog"
                     },
-                    "5": {
+                    "3": {
                         "Display": "mother"
                     },
-                    "6": {
+                    "4": {
                         "Display": "younger sister (13)"
                     },
-                    "7": {
+                    "5": {
                         "Display": "older sister's boyfriend"
                     },
-                    "8": {
+                    "6": {
                         "Display": "older sister (23)"
                     }
                 },
                 "ChoiceOrder": [
                     "1",
-                    "8",
+                    "2",
+                    "3",
                     "4",
                     "5",
-                    "6",
-                    "7"
+                    "6"
                 ],
                 "Validation": {
                     "Settings": {
@@ -729,7 +729,7 @@
                     "NotApplicable": false,
                     "MobileFirst": true,
                     "SliderStartPositions": {
-                        "1": 0.5004955401387511937372210013563744723796844482421875
+                        "1": 0.5
                     }
                 },
                 "QuestionDescription": "Given the above scenario and action choice, how likely is this outcome to occur?",
@@ -761,10 +761,10 @@
                     "1": {
                         "Display": "Absolutely unlikely"
                     },
-                    "6": {
+                    "2": {
                         "Display": "neutral \/ unsure"
                     },
-                    "7": {
+                    "3": {
                         "Display": "Absolutely likely"
                     }
                 },
@@ -794,40 +794,40 @@
                 },
                 "QuestionDescription": "Please identify every sentient being that is named in the scenario. A sentient being is a living...",
                 "Choices": {
-                    "6": {
+                    "1": {
                         "Display": "older sister (23)"
                     },
-                    "7": {
+                    "2": {
                         "Display": "the narrator of the story (\"I\", \"me\", etc)"
                     },
-                    "11": {
+                    "3": {
                         "Display": "dog"
                     },
-                    "12": {
+                    "4": {
                         "Display": "mother"
                     },
-                    "13": {
+                    "5": {
                         "Display": "younger sister (13)"
                     },
-                    "14": {
+                    "6": {
                         "Display": "older sister's boyfriend"
                     },
-                    "15": {
+                    "7": {
                         "Display": "an old man with a long white beard"
                     },
-                    "16": {
+                    "8": {
                         "Display": "a mouse"
                     }
                 },
                 "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
                     "6",
-                    "11",
-                    "12",
-                    "13",
-                    "14",
                     "7",
-                    "15",
-                    "16"
+                    "8"
                 ],
                 "Validation": {
                     "Settings": {
@@ -845,16 +845,6 @@
                     "EvenPresentation": false,
                     "TotalRandSubset": "",
                     "Type": "All"
-                },
-                "RecodeValues": {
-                    "6": "1",
-                    "7": "6",
-                    "11": "2",
-                    "12": "3",
-                    "13": "4",
-                    "14": "5",
-                    "15": "7",
-                    "16": "8"
                 }
             }
         },
@@ -895,7 +885,7 @@
             "SurveyID": "SV_4O2qZpQLFc8wlOC",
             "Element": "SQ",
             "PrimaryAttribute": "QID29",
-            "SecondaryAttribute": "You will now be asked more questions about this scenario and action choice. You will answer the s...",
+            "SecondaryAttribute": "You will now be asked more questions about this scenario and action choice.",
             "TertiaryAttribute": null,
             "Payload": {
                 "QuestionText": "You will now be asked more questions about this scenario and action choice. You will answer the same set of questions, but for different outcomes of this action choice. The page may look the same, but carefully read the outcome on each page before making your evaluations.<br>",
@@ -911,7 +901,7 @@
                 "Configuration": {
                     "QuestionDescriptionOption": "UseText"
                 },
-                "QuestionDescription": "You will now be asked more questions about this scenario and action choice. You will answer the s...",
+                "QuestionDescription": "You will now be asked more questions about this scenario and action choice.",
                 "ChoiceOrder": [],
                 "Validation": {
                     "Settings": {
@@ -928,7 +918,7 @@
             "SurveyID": "SV_4O2qZpQLFc8wlOC",
             "Element": "SQ",
             "PrimaryAttribute": "QID27",
-            "SecondaryAttribute": "Your task is to read a piece of text describing one person's real-world experience. At the end of...",
+            "SecondaryAttribute": "Your task is to read a piece of text describing one person's real-world experience.",
             "TertiaryAttribute": null,
             "Payload": {
                 "QuestionText": "Your task is to read a piece of text describing one person&#39;s real-world experience. At the end of the scenario text you will see a choice the person made, and answer a few questions about the scenario. Here is an example to get started.<br \/>\n<br \/>\n<strong>Mary had a little lamb, its fleece was white as snow. And everywhere that Mary went, the lamb was sure to go. It followed her to school one day, school one day, school one day. It followed her to school one day, which was against the rule.<\/strong><br \/>\n<br \/>\nPlease identify every&nbsp;<em><strong>sentient being<\/strong><\/em>&nbsp;that is named in the scenario text. A sentient being is a living thing that feels and can act - such as a person or animal. Please check the box for each sentient being written below, <u>only if they were present in the scenario<\/u>.",
@@ -943,7 +933,7 @@
                 "Configuration": {
                     "QuestionDescriptionOption": "UseText"
                 },
-                "QuestionDescription": "Your task is to read a piece of text describing one person's real-world experience. At the end of...",
+                "QuestionDescription": "Your task is to read a piece of text describing one person's real-world experience.",
                 "Choices": {
                     "1": {
                         "Display": "Mary"
@@ -975,7 +965,7 @@
                                 "0": {
                                     "0": {
                                         "ChoiceLocator": "q:\/\/QID27\/SelectableChoice\/1",
-                                        "Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">Your task is to read a piece of text describing one person's lived experience. At the end of the...<\/span> <span class=\"LeftOpDesc\">Mary<\/span> <span class=\"OpDesc\">Is Selected<\/span> ",
+                                        "Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">Your task is to read a piece of text describing one person's lived experience.<\/span> <span class=\"LeftOpDesc\">Mary<\/span> <span class=\"OpDesc\">Is Selected<\/span> ",
                                         "LeftOperand": "q:\/\/QID27\/SelectableChoice\/1",
                                         "LogicType": "Question",
                                         "Operator": "Selected",
@@ -987,7 +977,7 @@
                                     "1": {
                                         "ChoiceLocator": "q:\/\/QID27\/SelectableChoice\/2",
                                         "Conjuction": "And",
-                                        "Description": "<span class=\"ConjDesc\">And<\/span> <span class=\"QuestionDesc\">Your task is to read a piece of text describing one person's lived experience. At the end of the...<\/span> <span class=\"LeftOpDesc\">Lamb<\/span> <span class=\"OpDesc\">Is Selected<\/span> ",
+                                        "Description": "<span class=\"ConjDesc\">And<\/span> <span class=\"QuestionDesc\">Your task is to read a piece of text describing one person's lived experience.<\/span> <span class=\"LeftOpDesc\">Lamb<\/span> <span class=\"OpDesc\">Is Selected<\/span> ",
                                         "LeftOperand": "q:\/\/QID27\/SelectableChoice\/2",
                                         "LogicType": "Question",
                                         "Operator": "Selected",
@@ -999,7 +989,7 @@
                                     "2": {
                                         "ChoiceLocator": "q:\/\/QID27\/SelectableChoice\/3",
                                         "Conjuction": "And",
-                                        "Description": "<span class=\"ConjDesc\">And<\/span> <span class=\"QuestionDesc\">Your task is to read a piece of text describing one person's lived experience. At the end of the...<\/span> <span class=\"LeftOpDesc\">Snow<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+                                        "Description": "<span class=\"ConjDesc\">And<\/span> <span class=\"QuestionDesc\">Your task is to read a piece of text describing one person's lived experience..<\/span> <span class=\"LeftOpDesc\">Snow<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
                                         "LeftOperand": "q:\/\/QID27\/SelectableChoice\/3",
                                         "LogicType": "Question",
                                         "Operator": "NotSelected",
@@ -1011,7 +1001,7 @@
                                     "3": {
                                         "ChoiceLocator": "q:\/\/QID27\/SelectableChoice\/4",
                                         "Conjuction": "And",
-                                        "Description": "<span class=\"ConjDesc\">And<\/span> <span class=\"QuestionDesc\">Your task is to read a piece of text describing one person's lived experience. At the end of the...<\/span> <span class=\"LeftOpDesc\">School<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+                                        "Description": "<span class=\"ConjDesc\">And<\/span> <span class=\"QuestionDesc\">Your task is to read a piece of text describing one person's lived experience.<\/span> <span class=\"LeftOpDesc\">School<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
                                         "LeftOperand": "q:\/\/QID27\/SelectableChoice\/4",
                                         "LogicType": "Question",
                                         "Operator": "NotSelected",
