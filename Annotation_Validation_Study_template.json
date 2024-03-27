@@ -132,25 +132,19 @@
                         "LoopingOptions": {
                             "Static": {
                                 "1": {
-                                    "1": "Your older sister may become upset or angry with you for refusing to help with the dog, leading to potential conflict and tension in the family."
+                                    "1": "OUTCOME_1"
                                 },
                                 "2": {
-                                    "1": "Your mother and younger sister may feel overwhelmed and burdened by the increased responsibility of caring for the untrained dog, potentially leading to strained relationships within the family."
+                                    "1": "OUTCOME_2"
                                 },
                                 "3": {
-                                    "1": "The untrained dog may continue to suffer from neglect and lack of proper care, potentially leading to health and behavioral issues."
+                                    "1": "OUTCOME_3"
                                 },
                                 "4": {
-                                    "1": "Your older sister may feel pressured to either step up and take responsibility for the dog or consider rehoming it, potentially leading to a resolution of the situation."
+                                    "1": "OUTCOME_4"
                                 },
                                 "5": {
-                                    "1": "You may experience emotional distress from witnessing the neglect and mistreatment of the dog, potentially impacting your mental well-being."
-                                },
-                                "6": {
-                                    "1": "The living environment in the small apartment may become increasingly unpleasant due to the dog's untrained behavior, potentially affecting the overall quality of life for everyone in the household."
-                                },
-                                "7": {
-                                    "1": "Humans invent faster-than-light travel and begin colonizing the galaxy in the next 2 years."
+                                    "1": "OUTCOME_5"
                                 }
                             },
                             "Randomization": "All"
