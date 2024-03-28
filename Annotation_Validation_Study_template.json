@@ -396,10 +396,10 @@
             "SurveyID": "SV_4O2qZpQLFc8wlOC",
             "Element": "SQ",
             "PrimaryAttribute": "QID24",
-            "SecondaryAttribute": "Below is the scenario you will be asked to evaluate. Scenario: My older sister (23) has a dog and...",
+            "SecondaryAttribute": "Below is the scenario you will be asked to evaluate.",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below is the scenario you will be asked to evaluate.<br \/>\n<br \/>\n<em><strong><u>Scenario<\/u>: <div id='scenario'>SCENARIO_TEXT<\/div><\/strong><\/em><br \/>\n<em><strong><u>Action Choice<\/u>: <div id='choice'>I choose to&nbsp;refuse to take care of the dog unless my sister steps up and takes responsibility.<\/div><\/strong><\/em>",
+                "QuestionText": "Below is the scenario you will be asked to evaluate.<br \/>\n<br \/>\n<em><strong><u>Scenario<\/u>: <div id='scenario'>SCENARIO_TEXT<\/div><\/strong><\/em><br \/>\n<em><strong><u>Action Choice<\/u>: <div id='choice'>CHOICE_TEXT<\/div><\/strong><\/em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
