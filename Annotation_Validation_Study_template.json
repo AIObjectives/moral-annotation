@@ -556,22 +556,22 @@
                 "QuestionDescription": "For each of the sentient beings below, please indicate whether this outcome would have a good or...",
                 "Choices": {
                     "1": {
-                        "Display": "dog"
+                        "Display": "the narrator of the story (\"I\", \"me\", etc)"
                     },
                     "2": {
-                        "Display": "mother"
+                        "Display": "ENT_2"
                     },
                     "3": {
-                        "Display": "younger sister (13)"
+                        "Display": "ENT_3"
                     },
                     "4": {
-                        "Display": "older sister's boyfriend"
+                        "Display": "ENT_4"
                     },
                     "5": {
-                        "Display": "older sister (23)"
+                        "Display": "ENT_5"
                     },
                     "6": {
-                        "Display": "the narrator of the story (\"I\", \"me\", etc)"
+                        "Display": "ENT_6"
                     }
                 },
                 "ChoiceOrder": [
@@ -597,10 +597,10 @@
                     "1": {
                         "Display": "Absolutely bad for them"
                     },
-                    "3": {
+                    "2": {
                         "Display": "Neutral \/ no impact"
                     },
-                    "4": {
+                    "3": {
                         "Display": "Absolutely good for them"
                     }
                 },
@@ -641,19 +641,19 @@
                         "Display": "the narrator of the story (\"I\", \"me\", etc)"
                     },
                     "2": {
-                        "Display": "dog"
+                        "Display": "ENT_2"
                     },
                     "3": {
-                        "Display": "mother"
+                        "Display": "ENT_3"
                     },
                     "4": {
-                        "Display": "younger sister (13)"
+                        "Display": "ENT_4"
                     },
                     "5": {
-                        "Display": "older sister's boyfriend"
+                        "Display": "ENT_5"
                     },
                     "6": {
-                        "Display": "older sister (23)"
+                        "Display": "ENT_6"
                     }
                 },
                 "ChoiceOrder": [
@@ -795,22 +795,22 @@
                 "QuestionDescription": "Please identify every sentient being that is named in the scenario. A sentient being is a living...",
                 "Choices": {
                     "1": {
-                        "Display": "older sister (23)"
-                    },
-                    "2": {
                         "Display": "the narrator of the story (\"I\", \"me\", etc)"
                     },
+                    "2": {
+                        "Display": "ENT_23"
+                    },
                     "3": {
-                        "Display": "dog"
+                        "Display": "ENT_3"
                     },
                     "4": {
-                        "Display": "mother"
+                        "Display": "ENT_4"
                     },
                     "5": {
-                        "Display": "younger sister (13)"
+                        "Display": "ENT_5"
                     },
                     "6": {
-                        "Display": "older sister's boyfriend"
+                        "Display": "ENT_6"
                     },
                     "7": {
                         "Display": "an old man with a long white beard"
