@@ -6,31 +6,46 @@ def load_json_file(file_path):
     with open(file_path, 'r') as file:
         return json.load(file)
 
+ 
 def find_and_replace_placeholders(template_data, input_data):
     scenario_text = input_data[0]['scenario']
     choice_text = input_data[0]['choice']
-    entities = input_data[0]['entities'].split(',')
+    entities = [e.strip() for e in input_data[0]['entities'].split(',') if e.strip() != '']
     outcomes = input_data[0]['outcomes']
 
     for element in template_data['SurveyElements']:
         if element['Element'] == 'SQ':
             if 'Payload' in element and 'QuestionText' in element['Payload']:
                 question_text = element['Payload']['QuestionText']
-                if 'SCENARIO_TEXT' in question_text:
-                    element['Payload']['QuestionText'] = question_text.replace('SCENARIO_TEXT', scenario_text)
-                if 'CHOICE_TEXT' in question_text:
-                    element['Payload']['QuestionText'] = question_text.replace('CHOICE_TEXT', choice_text)
 
-        if element['Element'] == 'BL' and 'Payload' in element:
-            for block_id, block in element['Payload'].items():
-                if 'LoopingOptions' in block:
-                    for outcome_index, outcome in enumerate(outcomes, start=1):
-                        block['LoopingOptions']['Static'][str(outcome_index)]['1'] = outcome
+                # Attempt to directly replace within the specific HTML format
+                target_html = "<div id='scenario'>SCENARIO_TEXT</div>"
+                replacement_html = f"<div id='scenario'>{scenario_text}</div>"
+                if target_html in question_text:
+                    element['Payload']['QuestionText'] = question_text.replace(target_html, replacement_html)
+                    print("SCENARIO_TEXT replaced successfully.")
 
-        if element['Element'] == 'SQ' and 'Payload' in element and 'Choices' in element['Payload']:
-            for entity_index, entity in enumerate(entities, start=1):
-                if str(entity_index) in element['Payload']['Choices']:
-                    element['Payload']['Choices'][str(entity_index)]['Display'] = entity
+                # Replace CHOICE_TEXT if present
+                choice_target_html = "<div id='choice'>CHOICE_TEXT</div>"
+                choice_replacement_html = f"<div id='choice'>{choice_text}</div>"
+                if choice_target_html in question_text:
+                    element['Payload']['QuestionText'] = question_text.replace(choice_target_html, choice_replacement_html)
+                    print("CHOICE_TEXT replaced successfully.")
+
+            # Update entities in choices
+            if 'Choices' in element['Payload']:
+                for entity_index, entity in enumerate(entities, start=1):
+                    key = str(entity_index)
+                    if key in element['Payload']['Choices']:
+                        element['Payload']['Choices'][key]['Display'] = entity
+                    else:
+                        element['Payload']['Choices'][key] = {'Display': entity}
+
+                # Remove excess entries
+                current_keys = list(element['Payload']['Choices'].keys())
+                for key in current_keys:
+                    if int(key) > len(entities):
+                        del element['Payload']['Choices'][key]
 
     return template_data
 
