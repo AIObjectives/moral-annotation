@@ -13,13 +13,13 @@ def find_and_replace_placeholders(template_data, input_data):
     entities = [e.strip() for e in input_data[0]['entities'].split(',') if e.strip() != '']
     outcomes = input_data[0]['outcomes']
 
-    template_data_new = []
+    # template_data_new = {'SurveyElements': []}
+    elems_list = []
 
     for element in template_data['SurveyElements']:
         if element['Element'] == 'SQ':
             if 'Payload' in element and 'QuestionText' in element['Payload']:
                 question_text = element['Payload']['QuestionText']
-                print(element['PrimaryAttribute'])
 
                 # Attempt to directly replace within the specific HTML format
                 # <div id='scenario'>SCENARIO_TEXT<\/div>
@@ -51,14 +51,19 @@ def find_and_replace_placeholders(template_data, input_data):
                 for key in current_keys:
                     if int(key) > len(entities):
                         del element['Payload']['Choices'][key]
-        template_data_new.append(element)
+        
+        elems_list.append(element)
 
-    return template_data_new
+    # template_data_new['SurveyElements'] = elems_list
+    template_data['SurveyElements'] = elems_list
+
+    return template_data
 
 def update_looping_options(template_data, input_data):
     outcomes = input_data[0]['outcomes']
 
     for element in template_data['SurveyElements']:
+        print(element)
         if element['Element'] == 'BL':
             payload = element.get('Payload', {})
             for block_id, block in payload.items():
