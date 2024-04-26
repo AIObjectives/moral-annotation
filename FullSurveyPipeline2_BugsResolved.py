@@ -13,17 +13,22 @@ def find_and_replace_placeholders(template_data, input_data):
     entities = [e.strip() for e in input_data[0]['entities'].split(',') if e.strip() != '']
     outcomes = input_data[0]['outcomes']
 
+    template_data_new = []
+
     for element in template_data['SurveyElements']:
         if element['Element'] == 'SQ':
             if 'Payload' in element and 'QuestionText' in element['Payload']:
                 question_text = element['Payload']['QuestionText']
+                print(element['PrimaryAttribute'])
 
                 # Attempt to directly replace within the specific HTML format
+                # <div id='scenario'>SCENARIO_TEXT<\/div>
                 target_html = "<div id='scenario'>SCENARIO_TEXT</div>"
                 replacement_html = f"<div id='scenario'>{scenario_text}</div>"
                 if target_html in question_text:
                     element['Payload']['QuestionText'] = question_text.replace(target_html, replacement_html)
                     print("SCENARIO_TEXT replaced successfully.")
+                    print(element['Payload']['QuestionText'])
 
                 # Replace CHOICE_TEXT if present
                 choice_target_html = "<div id='choice'>CHOICE_TEXT</div>"
@@ -46,8 +51,9 @@ def find_and_replace_placeholders(template_data, input_data):
                 for key in current_keys:
                     if int(key) > len(entities):
                         del element['Payload']['Choices'][key]
+        template_data_new.append(element)
 
-    return template_data
+    return template_data_new
 
 def update_looping_options(template_data, input_data):
     outcomes = input_data[0]['outcomes']
@@ -137,9 +143,14 @@ def update_template_with_multiple_inputs(template_file, input_files, output_dire
             json.dump(final_updated_data, file, indent=4)
 
 # Paths to files and directories
-template_file = '/Users/emreturan/Desktop/Annotation_Validation_Study_template.json'
-input_files = ['/Users/emreturan/Desktop/qualtrics_scenarios_0_choice_1.json','/Users/emreturan/Desktop/qualtrics_scenarios_1_choice_2.json']
-output_directory = '/Users/emreturan/Desktop/surveypipeline/'
+# template_file = '/Users/emreturan/Desktop/Annotation_Validation_Study_template.json'
+# input_files = ['/Users/emreturan/Desktop/qualtrics_scenarios_0_choice_1.json','/Users/emreturan/Desktop/qualtrics_scenarios_1_choice_2.json']
+# output_directory = '/Users/emreturan/Desktop/surveypipeline/'
+
+template_file = '/Users/anna/Dropbox/AOI/MoralLearning/CodeSets/annotation/moral-annotation/Annotation_Validation_Study_template.json'
+input_files = ['/Users/anna/Dropbox/AOI/MoralLearning/CodeSets/annotation/moral-annotation/scenarios/qualtrics_scenarios_0_choice_1.json']
+output_directory = '/Users/anna/Dropbox/AOI/MoralLearning/CodeSets/annotation/moral-annotation/qualtrics/'
+
 
 update_template_with_multiple_inputs(template_file, input_files, output_directory)
 
