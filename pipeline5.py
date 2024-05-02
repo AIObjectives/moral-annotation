@@ -6,102 +6,6 @@ def load_json_file(file_path):
         return json.load(file)
 
 
-    
-# def find_and_replace_placeholders(template_data, input_data):
-#     scenario_text = input_data[0]['scenario']
-#     choice_text = input_data[0]['choice']
-#     entities = [e.strip() for e in input_data[0]['entities'].split(',') if e.strip() != '']
-#     outcomes = input_data[0]['outcomes']
-
-#     # Add hardcoded entities
-#     entities.append("an old man with a long white beard")
-#     entities.append("a mouse")
-
-#     elems_list = []
-
-#     for element in template_data['SurveyElements']:
-#         if element['Element'] == 'SQ':
-#             if 'Payload' in element and 'QuestionText' in element['Payload']:
-#                 question_text = element['Payload']['QuestionText']
-
-#                 target_html = "<div id='scenario'>SCENARIO_TEXT</div>"
-#                 replacement_html = f"<div id='scenario'>{scenario_text}</div>"
-#                 if target_html in question_text:
-#                     element['Payload']['QuestionText'] = question_text.replace(target_html, replacement_html)
-
-#                 choice_target_html = "<div id='choice'>CHOICE_TEXT</div>"
-#                 choice_replacement_html = f"<div id='choice'>{choice_text}</div>"
-#                 if choice_target_html in question_text:
-#                     element['Payload']['QuestionText'] = question_text.replace(choice_target_html, choice_replacement_html)
-#                     #print("CHOICE_TEXT replaced successfully.")
-
-#             if 'Choices' in element['Payload']:
-#                 for entity_index, entity in enumerate(entities, start=1):
-#                     key = str(entity_index)
-#                     if key in element['Payload']['Choices']:
-#                         element['Payload']['Choices'][key]['Display'] = entity
-#                     else:
-#                         element['Payload']['Choices'][key] = {'Display': entity}
-
-#                 current_keys = list(element['Payload']['Choices'].keys())
-#                 for key in current_keys:
-#                     if int(key) > len(entities):
-#                         del element['Payload']['Choices'][key]
-        
-#         elems_list.append(element)
-
-#     template_data['SurveyElements'] = elems_list
-#     return template_data
-    
-
-# def find_and_replace_placeholders(template_data, input_data):
-#     scenario_text = input_data[0]['scenario']
-#     choice_text = input_data[0]['choice']
-#     entities = [e.strip() for e in input_data[0]['entities'].split(',') if e.strip() != '']
-#     outcomes = input_data[0]['outcomes']
-
-#     # Add hardcoded entities
-#     entities.append("an old man with a long white beard")
-#     entities.append("a mouse")
-
-#     elems_list = []
-
-#     for element in template_data['SurveyElements']:
-#         if element['Element'] == 'SQ':
-#             if 'Payload' in element and 'QuestionText' in element['Payload']:
-#                 question_text = element['Payload']['QuestionText']
-
-#                 # Replace the scenario text in both parts of the template based on the specific format
-#                 # Find where <div id='scenario'> is and replace the enclosed SCENARIO_TEXT
-#                 if "<div id='scenario'>SCENARIO_TEXT</div>" in question_text:
-#                     element['Payload']['QuestionText'] = question_text.replace("<div id='scenario'>SCENARIO_TEXT</div>", f"<div id='scenario'>{scenario_text}</div>")
-
-#                 # Replace the choice text
-#                 if "<div id='choice'>CHOICE_TEXT</div>" in question_text:
-#                     element['Payload']['QuestionText'] = question_text.replace("<div id='choice'>CHOICE_TEXT</div>", f"<div id='choice'>{choice_text}</div>")
-
-#             # Update entities in choices
-#             if 'Choices' in element['Payload']:
-#                 for entity_index, entity in enumerate(entities, start=1):
-#                     key = str(entity_index)
-#                     if key in element['Payload']['Choices']:
-#                         element['Payload']['Choices'][key]['Display'] = entity
-#                     else:
-#                         element['Payload']['Choices'][key] = {'Display': entity}
-
-#                 # Remove excess entries
-#                 current_keys = list(element['Payload']['Choices'].keys())
-#                 for key in current_keys:
-#                     if int(key) > len(entities):
-#                         del element['Payload']['Choices'][key]
-
-#         elems_list.append(element)
-
-#     template_data['SurveyElements'] = elems_list
-#     return template_data
-
-
-
 def find_and_replace_placeholders(template_data, input_data):
     scenario_text = input_data[0]['scenario']
     choice_text = input_data[0]['choice']
@@ -227,11 +131,9 @@ def update_template_with_multiple_inputs(template_file, input_files, output_dire
         with open(output_file, 'w') as file:
             json.dump(final_updated_data, file, indent=4)
 
-template_file = '/Users/emreturan/Desktop/surveypipeline/UPDATEDAOItemplate.json'
-# input_files = ['/Users/emreturan/Desktop/qualtrics_scenarios_5_choice_1.json','/Users/emreturan/Desktop/qualtrics_scenarios_1_choice_2.json']
-#input_files = ['/Users/emreturan/Desktop/surveypipeline/AOI/qualtrics_scenarios_0_choice_1.json','/Users/emreturan/Desktop/surveypipeline/AOI/qualtrics_scenarios_2_choice_2.json','/Users/emreturan/Desktop/surveypipeline/AOI/qualtrics_scenarios_4_choice_1.json','/Users/emreturan/Desktop/surveypipeline/AOI/qualtrics_scenarios_5_choice_1.json']
+template_file = '.../UPDATEDAOItemplate.json'
 
-input_files =['/Users/emreturan/Desktop/surveypipeline/AOI/qualtrics_scenarios_0_choice_1.json']
-output_directory = '/Users/emreturan/Desktop/surveypipeline/LAST'
+input_files =[...]
+output_directory = '...'
 
 update_template_with_multiple_inputs(template_file, input_files, output_directory)
