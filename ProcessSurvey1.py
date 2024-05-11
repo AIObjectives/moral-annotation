@@ -96,7 +96,6 @@ def update_real_world_experience_question(template_data):
     return template_data
 
 
-##newly added may9th
 def update_outcome_list_question(template_data, input_data):
     outcomes = input_data[0]['outcomes']
     # Formatting each outcome as an HTML list item

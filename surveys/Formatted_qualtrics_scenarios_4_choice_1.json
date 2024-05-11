@@ -1,7 +1,7 @@
 {
     "SurveyEntry": {
         "SurveyID": "SV_6KETqTdatNVMQPc",
-        "SurveyName": "Annotation Validation Study [qualtrics_scenarios_0_choice_1]",
+        "SurveyName": "Annotation Validation Study [qualtrics_scenarios_4_choice_1]",
         "SurveyDescription": null,
         "SurveyOwnerID": "UR_2ZPwzuRYfhqZWYR",
         "SurveyBrandID": "qualtricsxmhxsm8yb3m",
@@ -141,25 +141,19 @@
                         "LoopingOptions": {
                             "Static": {
                                 "1": {
-                                    "1": "My refusal to help may increase the burden on my mother and younger sister."
+                                    "1": "Ann receives further assistance with her English and MCAT preparation from me."
                                 },
                                 "2": {
-                                    "1": "The dog's care and living conditions may not improve, continuing the cycle of neglect."
+                                    "1": "I and Ann spend more time together, potentially strengthening our acquaintance."
                                 },
                                 "3": {
-                                    "1": "My relationship with my older sister may become more strained due to my stance."
+                                    "1": "Ann may feel supported and less isolated in her academic and personal challenges."
                                 },
                                 "4": {
-                                    "1": "The dog may continue to exhibit untrained behavior, such as peeing and pooping indoors."
+                                    "1": "I may experience a sense of fulfillment from helping someone in need."
                                 },
                                 "5": {
-                                    "1": "My mother and younger sister may experience increased stress and frustration."
-                                },
-                                "6": {
-                                    "1": "The living conditions in the apartment may deteriorate further due to lack of proper cleaning."
-                                },
-                                "7": {
-                                    "1": "I may experience guilt or distress from witnessing the dog's ongoing neglect."
+                                    "1": "There could be a misunderstanding or expectation mismatch regarding the nature of their relationship or interactions."
                                 }
                             },
                             "Randomization": "All"
@@ -480,7 +474,7 @@
             "SecondaryAttribute": "Below is the scenario you will be asked to evaluate. Scenario: SCENARIO_TEXT Action Choice: CHOIC...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below is the scenario you will be asked to evaluate.<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before my sister got it as i knew my sister wasn't ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I'm baffled as to why my sister cant train it or take care of it. I don't think my sister is fit to have this dog and I think the dog would have a better life in another home, I just can't bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.</div></strong></em><br>\n<em><strong><u>Action Choice</u>: <div id=\"choice\">I refuse to take care of the dog unless my sister steps up and takes responsibility.</div></strong></em>",
+                "QuestionText": "Below is the scenario you will be asked to evaluate.<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">So: I\u2019m a single 23 year old guy. I work in a lab, and we\u2019ve taken volunteers to help with field work before. A few months back, I\u2019m paired up with Ann (not her actual name) at a mass Audubon station, where we checked over deer registered during the first week of hunting season. Ann is from Vietnam. This is our first time meeting, and there\u2019s a smidge of a language barrier. We\u2019re stuck together for six hours or so, so we chat. She mentions her hopes and dreams to go to med school, but that she\u2019s concerned about taking the MCAT because her English isn\u2019t very good. I tell her that I can\u2019t really help with much of the rest of the rest, but if she needs a hand with the English portions, I could try to walk her through a practice exam. Admittedly, never actually thought she would take me up on it. Flash forward to last week- she found me on Facebook and asked me for help. She was nice enough, and since I had promised, I said yes. A few things became pretty clear pretty quickly: 1. It became very clear, very fast that she isn\u2019t going to pass the MCAT- or at least not the sections she was going over with me. She seems to know this. 2. She mentioned that she doesn\u2019t want to go back to Vietnam, her visa is expiring soon, and if she can\u2019t pass the test she\u2019ll either need to get married or head home. 3. She was interested in doing /much/ more than studying for the MCAT. Now, this is where friends have called me the asshole: she started calling herself short, fat, and ugly, more or less out of nowhere. I said she \u201cwas definitely short, but fat and ugly? Not so much.\u201d Apparently this was leading her on that I was interested, while I thought it was just keeping someone from insulting themselves too harshly. Again: I genuinely was only interested in helping her study.  Apparently, it\u2019s pretty unreasonable to help a stranger like this and /not/ assume something sexual or beginnings of relationship-y are involved/will become involved. So, when she offered me a tour of her apartment, and showed me to her bedroom: I said 'oh, your bed is made differently than mine,' and played full-oblivious with her. Left pretty soon afterwards, with a hug and a \u201chappy to help. She texted me the next day, very politely thanked me, and asked if I could help her again sometime.</div></strong></em><br>\n<em><strong><u>Action Choice</u>: <div id=\"choice\">I agree to help her</div></strong></em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -518,7 +512,7 @@
             "SecondaryAttribute": "Below you will see the scenario, action choice, and outcome: Scenario: SCENARIO_TEXT Action Choic...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome</span>:<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before my sister got it as i knew my sister wasn't ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I'm baffled as to why my sister cant train it or take care of it. I don't think my sister is fit to have this dog and I think the dog would have a better life in another home, I just can't bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.</div><div id=\"scenario\"><br></div><div id=\"scenario\"><u>\nAction Choice</u>:</div><div id=\"scenario\">I refuse to take care of the dog unless my sister steps up and takes responsibility.<br></div><br>\n<span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
+                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome</span>:<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">So: I\u2019m a single 23 year old guy. I work in a lab, and we\u2019ve taken volunteers to help with field work before. A few months back, I\u2019m paired up with Ann (not her actual name) at a mass Audubon station, where we checked over deer registered during the first week of hunting season. Ann is from Vietnam. This is our first time meeting, and there\u2019s a smidge of a language barrier. We\u2019re stuck together for six hours or so, so we chat. She mentions her hopes and dreams to go to med school, but that she\u2019s concerned about taking the MCAT because her English isn\u2019t very good. I tell her that I can\u2019t really help with much of the rest of the rest, but if she needs a hand with the English portions, I could try to walk her through a practice exam. Admittedly, never actually thought she would take me up on it. Flash forward to last week- she found me on Facebook and asked me for help. She was nice enough, and since I had promised, I said yes. A few things became pretty clear pretty quickly: 1. It became very clear, very fast that she isn\u2019t going to pass the MCAT- or at least not the sections she was going over with me. She seems to know this. 2. She mentioned that she doesn\u2019t want to go back to Vietnam, her visa is expiring soon, and if she can\u2019t pass the test she\u2019ll either need to get married or head home. 3. She was interested in doing /much/ more than studying for the MCAT. Now, this is where friends have called me the asshole: she started calling herself short, fat, and ugly, more or less out of nowhere. I said she \u201cwas definitely short, but fat and ugly? Not so much.\u201d Apparently this was leading her on that I was interested, while I thought it was just keeping someone from insulting themselves too harshly. Again: I genuinely was only interested in helping her study.  Apparently, it\u2019s pretty unreasonable to help a stranger like this and /not/ assume something sexual or beginnings of relationship-y are involved/will become involved. So, when she offered me a tour of her apartment, and showed me to her bedroom: I said 'oh, your bed is made differently than mine,' and played full-oblivious with her. Left pretty soon afterwards, with a hug and a \u201chappy to help. She texted me the next day, very politely thanked me, and asked if I could help her again sometime.</div><div id=\"scenario\"><br></div><div id=\"scenario\"><u>\nAction Choice</u>:</div><div id=\"scenario\">I agree to help her<br></div><br>\n<span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -571,19 +565,10 @@
                 "QuestionDescription": "Click to write the question text",
                 "Choices": {
                     "1": {
-                        "Display": "older sister"
+                        "Display": "I"
                     },
                     "2": {
-                        "Display": "dog"
-                    },
-                    "3": {
-                        "Display": "mother"
-                    },
-                    "4": {
-                        "Display": "younger sister"
-                    },
-                    "5": {
-                        "Display": "I"
+                        "Display": "Ann"
                     }
                 },
                 "ChoiceOrder": [
@@ -629,19 +614,10 @@
                 "QuestionDescription": "Click to write the question text",
                 "Choices": {
                     "1": {
-                        "Display": "older sister"
+                        "Display": "I"
                     },
                     "2": {
-                        "Display": "dog"
-                    },
-                    "3": {
-                        "Display": "mother"
-                    },
-                    "4": {
-                        "Display": "younger sister"
-                    },
-                    "5": {
-                        "Display": "I"
+                        "Display": "Ann"
                     }
                 },
                 "ChoiceOrder": [
@@ -761,19 +737,10 @@
                 "QuestionDescription": "For each of the sentient beings below, please indicate whether this outcome would have a good or...",
                 "Choices": {
                     "1": {
-                        "Display": "older sister"
+                        "Display": "I"
                     },
                     "2": {
-                        "Display": "dog"
-                    },
-                    "3": {
-                        "Display": "mother"
-                    },
-                    "4": {
-                        "Display": "younger sister"
-                    },
-                    "5": {
-                        "Display": "I"
+                        "Display": "Ann"
                     }
                 },
                 "ChoiceOrder": [
@@ -840,19 +807,10 @@
                 "QuestionDescription": "For each of the sentient beings listed below, please indicate whether they would have expected, d...",
                 "Choices": {
                     "1": {
-                        "Display": "older sister"
+                        "Display": "I"
                     },
                     "2": {
-                        "Display": "dog"
-                    },
-                    "3": {
-                        "Display": "mother"
-                    },
-                    "4": {
-                        "Display": "younger sister"
-                    },
-                    "5": {
-                        "Display": "I"
+                        "Display": "Ann"
                     }
                 },
                 "ChoiceOrder": [
@@ -1106,24 +1064,15 @@
                 "QuestionDescription": "Please identify every sentient being that is named in the scenario. A sentient being is a living...",
                 "Choices": {
                     "1": {
-                        "Display": "older sister"
-                    },
-                    "2": {
-                        "Display": "dog"
-                    },
-                    "3": {
-                        "Display": "mother"
-                    },
-                    "4": {
-                        "Display": "younger sister"
-                    },
-                    "5": {
                         "Display": "I"
                     },
-                    "6": {
+                    "2": {
+                        "Display": "Ann"
+                    },
+                    "3": {
                         "Display": "an old man with a long white beard"
                     },
-                    "7": {
+                    "4": {
                         "Display": "a mouse"
                     }
                 },
@@ -1229,7 +1178,7 @@
             "SecondaryAttribute": "You have considered the following action: CHOICE_TEXT And these possible outcomes: OUTCOME_LIST A...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "You have considered the following action:<br><br>I refuse to take care of the dog unless my sister steps up and takes responsibility.<br><br>And these possible outcomes:<br><br><ul><li>My refusal to help may increase the burden on my mother and younger sister.</li><li>The dog's care and living conditions may not improve, continuing the cycle of neglect.</li><li>My relationship with my older sister may become more strained due to my stance.</li><li>The dog may continue to exhibit untrained behavior, such as peeing and pooping indoors.</li><li>My mother and younger sister may experience increased stress and frustration.</li><li>The living conditions in the apartment may deteriorate further due to lack of proper cleaning.</li><li>I may experience guilt or distress from witnessing the dog's ongoing neglect.</li></ul><br><br>Are there other likely outcomes of the action that were not listed? If so, please enter them below.&nbsp;",
+                "QuestionText": "You have considered the following action:<br><br>I agree to help her<br><br>And these possible outcomes:<br><br><ul><li>Ann receives further assistance with her English and MCAT preparation from me.</li><li>I and Ann spend more time together, potentially strengthening our acquaintance.</li><li>Ann may feel supported and less isolated in her academic and personal challenges.</li><li>I may experience a sense of fulfillment from helping someone in need.</li><li>There could be a misunderstanding or expectation mismatch regarding the nature of their relationship or interactions.</li></ul><br><br>Are there other likely outcomes of the action that were not listed? If so, please enter them below.&nbsp;",
                 "DefaultChoices": false,
                 "DataExportTag": "Q18",
                 "QuestionType": "TE",

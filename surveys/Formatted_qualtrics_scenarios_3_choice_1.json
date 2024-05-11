@@ -1,7 +1,7 @@
 {
     "SurveyEntry": {
         "SurveyID": "SV_6KETqTdatNVMQPc",
-        "SurveyName": "Annotation Validation Study [qualtrics_scenarios_0_choice_1]",
+        "SurveyName": "Annotation Validation Study [qualtrics_scenarios_3_choice_1]",
         "SurveyDescription": null,
         "SurveyOwnerID": "UR_2ZPwzuRYfhqZWYR",
         "SurveyBrandID": "qualtricsxmhxsm8yb3m",
@@ -141,25 +141,19 @@
                         "LoopingOptions": {
                             "Static": {
                                 "1": {
-                                    "1": "My refusal to help may increase the burden on my mother and younger sister."
+                                    "1": "My testimony may lead to a more accurate understanding of the accident's circumstances by the police."
                                 },
                                 "2": {
-                                    "1": "The dog's care and living conditions may not improve, continuing the cycle of neglect."
+                                    "1": "My relationship with my girlfriend might be strained or damaged due to my contradiction of her story."
                                 },
                                 "3": {
-                                    "1": "My relationship with my older sister may become more strained due to my stance."
+                                    "1": "The police may consider my account credible, potentially affecting the outcome of any legal or insurance proceedings."
                                 },
                                 "4": {
-                                    "1": "The dog may continue to exhibit untrained behavior, such as peeing and pooping indoors."
+                                    "1": "My girlfriend might face legal or social consequences if it is determined she falsely accused the other driver of racial abuse."
                                 },
                                 "5": {
-                                    "1": "My mother and younger sister may experience increased stress and frustration."
-                                },
-                                "6": {
-                                    "1": "The living conditions in the apartment may deteriorate further due to lack of proper cleaning."
-                                },
-                                "7": {
-                                    "1": "I may experience guilt or distress from witnessing the dog's ongoing neglect."
+                                    "1": "The older man involved in the accident may feel vindicated by my account if it aligns more closely with his version of events."
                                 }
                             },
                             "Randomization": "All"
@@ -480,7 +474,7 @@
             "SecondaryAttribute": "Below is the scenario you will be asked to evaluate. Scenario: SCENARIO_TEXT Action Choice: CHOIC...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below is the scenario you will be asked to evaluate.<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before my sister got it as i knew my sister wasn't ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I'm baffled as to why my sister cant train it or take care of it. I don't think my sister is fit to have this dog and I think the dog would have a better life in another home, I just can't bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.</div></strong></em><br>\n<em><strong><u>Action Choice</u>: <div id=\"choice\">I refuse to take care of the dog unless my sister steps up and takes responsibility.</div></strong></em>",
+                "QuestionText": "Below is the scenario you will be asked to evaluate.<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">About three weeks ago, my girlfriend was driving while I was a passenger. We were at a four way stop and if I'm being totally honest, I think she went when it wasn't her turn but it was really close and her car and the other guys hit each other at an angle so it was really hard to tell who was at fault. My girlfriend is about 3/4 African American but still somewhat light skinned. When we got out of the car, the other guy was an older man who was clearly agitated but as god as my witness I did not hear him say anything rude, let alone derogatory towards my girlfriend's race. He had called the police even before getting out of the car and I think it took them less than 10 minutes to get there. My girlfriend sat in her car calling her parents while the other guy and I did our best to redirect traffic around the two cars. When the police came up my girlfriend instantly went from calm and collected to tears streaming down her face when they asked her what happened she said that she saw the other guy look at her and then from her perspective hit her car on purpose. She also said that as soon as he got out of the car he started screaming at her things like \"this is why m*****'s shouldn't be behind the wheel and that she's an n-word who would be better in chains among other things. I was speechless and kept telling myself \"say something, just say something.</div></strong></em><br>\n<em><strong><u>Action Choice</u>: <div id=\"choice\">I tell the cops what I really saw and contradict my girlfriend</div></strong></em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -518,7 +512,7 @@
             "SecondaryAttribute": "Below you will see the scenario, action choice, and outcome: Scenario: SCENARIO_TEXT Action Choic...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome</span>:<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before my sister got it as i knew my sister wasn't ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I'm baffled as to why my sister cant train it or take care of it. I don't think my sister is fit to have this dog and I think the dog would have a better life in another home, I just can't bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.</div><div id=\"scenario\"><br></div><div id=\"scenario\"><u>\nAction Choice</u>:</div><div id=\"scenario\">I refuse to take care of the dog unless my sister steps up and takes responsibility.<br></div><br>\n<span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
+                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome</span>:<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">About three weeks ago, my girlfriend was driving while I was a passenger. We were at a four way stop and if I'm being totally honest, I think she went when it wasn't her turn but it was really close and her car and the other guys hit each other at an angle so it was really hard to tell who was at fault. My girlfriend is about 3/4 African American but still somewhat light skinned. When we got out of the car, the other guy was an older man who was clearly agitated but as god as my witness I did not hear him say anything rude, let alone derogatory towards my girlfriend's race. He had called the police even before getting out of the car and I think it took them less than 10 minutes to get there. My girlfriend sat in her car calling her parents while the other guy and I did our best to redirect traffic around the two cars. When the police came up my girlfriend instantly went from calm and collected to tears streaming down her face when they asked her what happened she said that she saw the other guy look at her and then from her perspective hit her car on purpose. She also said that as soon as he got out of the car he started screaming at her things like \"this is why m*****'s shouldn't be behind the wheel and that she's an n-word who would be better in chains among other things. I was speechless and kept telling myself \"say something, just say something.</div><div id=\"scenario\"><br></div><div id=\"scenario\"><u>\nAction Choice</u>:</div><div id=\"scenario\">I tell the cops what I really saw and contradict my girlfriend<br></div><br>\n<span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -571,19 +565,16 @@
                 "QuestionDescription": "Click to write the question text",
                 "Choices": {
                     "1": {
-                        "Display": "older sister"
+                        "Display": "I"
                     },
                     "2": {
-                        "Display": "dog"
+                        "Display": "my girlfriend"
                     },
                     "3": {
-                        "Display": "mother"
+                        "Display": "the other guy"
                     },
                     "4": {
-                        "Display": "younger sister"
-                    },
-                    "5": {
-                        "Display": "I"
+                        "Display": "police"
                     }
                 },
                 "ChoiceOrder": [
@@ -629,19 +620,16 @@
                 "QuestionDescription": "Click to write the question text",
                 "Choices": {
                     "1": {
-                        "Display": "older sister"
+                        "Display": "I"
                     },
                     "2": {
-                        "Display": "dog"
+                        "Display": "my girlfriend"
                     },
                     "3": {
-                        "Display": "mother"
+                        "Display": "the other guy"
                     },
                     "4": {
-                        "Display": "younger sister"
-                    },
-                    "5": {
-                        "Display": "I"
+                        "Display": "police"
                     }
                 },
                 "ChoiceOrder": [
@@ -761,19 +749,16 @@
                 "QuestionDescription": "For each of the sentient beings below, please indicate whether this outcome would have a good or...",
                 "Choices": {
                     "1": {
-                        "Display": "older sister"
+                        "Display": "I"
                     },
                     "2": {
-                        "Display": "dog"
+                        "Display": "my girlfriend"
                     },
                     "3": {
-                        "Display": "mother"
+                        "Display": "the other guy"
                     },
                     "4": {
-                        "Display": "younger sister"
-                    },
-                    "5": {
-                        "Display": "I"
+                        "Display": "police"
                     }
                 },
                 "ChoiceOrder": [
@@ -840,19 +825,16 @@
                 "QuestionDescription": "For each of the sentient beings listed below, please indicate whether they would have expected, d...",
                 "Choices": {
                     "1": {
-                        "Display": "older sister"
+                        "Display": "I"
                     },
                     "2": {
-                        "Display": "dog"
+                        "Display": "my girlfriend"
                     },
                     "3": {
-                        "Display": "mother"
+                        "Display": "the other guy"
                     },
                     "4": {
-                        "Display": "younger sister"
-                    },
-                    "5": {
-                        "Display": "I"
+                        "Display": "police"
                     }
                 },
                 "ChoiceOrder": [
@@ -1106,24 +1088,21 @@
                 "QuestionDescription": "Please identify every sentient being that is named in the scenario. A sentient being is a living...",
                 "Choices": {
                     "1": {
-                        "Display": "older sister"
-                    },
-                    "2": {
-                        "Display": "dog"
-                    },
-                    "3": {
-                        "Display": "mother"
-                    },
-                    "4": {
-                        "Display": "younger sister"
-                    },
-                    "5": {
                         "Display": "I"
                     },
-                    "6": {
+                    "2": {
+                        "Display": "my girlfriend"
+                    },
+                    "3": {
+                        "Display": "the other guy"
+                    },
+                    "4": {
+                        "Display": "police"
+                    },
+                    "5": {
                         "Display": "an old man with a long white beard"
                     },
-                    "7": {
+                    "6": {
                         "Display": "a mouse"
                     }
                 },
@@ -1229,7 +1208,7 @@
             "SecondaryAttribute": "You have considered the following action: CHOICE_TEXT And these possible outcomes: OUTCOME_LIST A...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "You have considered the following action:<br><br>I refuse to take care of the dog unless my sister steps up and takes responsibility.<br><br>And these possible outcomes:<br><br><ul><li>My refusal to help may increase the burden on my mother and younger sister.</li><li>The dog's care and living conditions may not improve, continuing the cycle of neglect.</li><li>My relationship with my older sister may become more strained due to my stance.</li><li>The dog may continue to exhibit untrained behavior, such as peeing and pooping indoors.</li><li>My mother and younger sister may experience increased stress and frustration.</li><li>The living conditions in the apartment may deteriorate further due to lack of proper cleaning.</li><li>I may experience guilt or distress from witnessing the dog's ongoing neglect.</li></ul><br><br>Are there other likely outcomes of the action that were not listed? If so, please enter them below.&nbsp;",
+                "QuestionText": "You have considered the following action:<br><br>I tell the cops what I really saw and contradict my girlfriend<br><br>And these possible outcomes:<br><br><ul><li>My testimony may lead to a more accurate understanding of the accident's circumstances by the police.</li><li>My relationship with my girlfriend might be strained or damaged due to my contradiction of her story.</li><li>The police may consider my account credible, potentially affecting the outcome of any legal or insurance proceedings.</li><li>My girlfriend might face legal or social consequences if it is determined she falsely accused the other driver of racial abuse.</li><li>The older man involved in the accident may feel vindicated by my account if it aligns more closely with his version of events.</li></ul><br><br>Are there other likely outcomes of the action that were not listed? If so, please enter them below.&nbsp;",
                 "DefaultChoices": false,
                 "DataExportTag": "Q18",
                 "QuestionType": "TE",

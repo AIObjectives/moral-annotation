@@ -1,7 +1,7 @@
 {
     "SurveyEntry": {
         "SurveyID": "SV_6KETqTdatNVMQPc",
-        "SurveyName": "Annotation Validation Study [qualtrics_scenarios_5_choice_1]",
+        "SurveyName": "Annotation Validation Study [qualtrics_scenarios_6_choice_2]",
         "SurveyDescription": null,
         "SurveyOwnerID": "UR_2ZPwzuRYfhqZWYR",
         "SurveyBrandID": "qualtricsxmhxsm8yb3m",
@@ -13,7 +13,7 @@
         "SurveyExpirationDate": "0000-00-00 00:00:00",
         "SurveyCreationDate": "2024-04-22 19:16:12",
         "CreatorID": "UR_2ZPwzuRYfhqZWYR",
-        "LastModified": "2024-05-02 13:57:16",
+        "LastModified": "2024-05-09 17:06:42",
         "LastAccessed": "0000-00-00 00:00:00",
         "LastActivated": "0000-00-00 00:00:00",
         "Deleted": null
@@ -141,22 +141,25 @@
                         "LoopingOptions": {
                             "Static": {
                                 "1": {
-                                    "1": "My family will be able to watch the upcoming season of Game of Thrones using my HBO account"
+                                    "1": "I continue to harbor unexpressed romantic feelings."
                                 },
                                 "2": {
-                                    "1": "I may face ridicule or judgment from my family for the content I watch on my account"
+                                    "1": "I experience emotional discomfort or distress due to unrequited feelings."
                                 },
                                 "3": {
-                                    "1": "I may feel uncomfortable or restricted in my viewing choices due to the potential monitoring or judgment from my family"
+                                    "1": "The friendship between me and the girl remains unchanged on the surface."
                                 },
                                 "4": {
-                                    "1": "I may experience a strained relationship with my brother if he continues to monitor and criticize my viewing choices"
+                                    "1": "I may struggle with feelings of resentment or sadness over time."
                                 },
                                 "5": {
-                                    "1": "I may feel a sense of connection and enjoyment from being able to share my love for Game of Thrones with my family."
+                                    "1": "The girl remains unaware of my true feelings, potentially leading to misunderstandings."
                                 },
                                 "6": {
-                                    "1": "I may experience guilt or distress from seeing the dog's welfare decline and the increased pressure on my family members."
+                                    "1": "I might miss the opportunity to potentially deepen the relationship, despite the risk involved."
+                                },
+                                "7": {
+                                    "1": "The dynamic of the friendship could become strained if my feelings intensify or become harder to hide."
                                 }
                             },
                             "Randomization": "All"
@@ -192,6 +195,18 @@
                         {
                             "Type": "Question",
                             "QuestionID": "QID35"
+                        }
+                    ]
+                },
+                "11": {
+                    "Type": "Standard",
+                    "SubType": "",
+                    "Description": "Block 5",
+                    "ID": "BL_bjUA0jMInlVmxN4",
+                    "BlockElements": [
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID36"
                         }
                     ]
                 }
@@ -254,6 +269,11 @@
                         "Autofill": []
                     },
                     {
+                        "ID": "BL_bjUA0jMInlVmxN4",
+                        "Type": "Standard",
+                        "FlowID": "FL_20"
+                    },
+                    {
                         "Type": "Standard",
                         "ID": "BL_3UEz0xwNa5Aqkdw",
                         "FlowID": "FL_17",
@@ -285,7 +305,7 @@
                     }
                 ],
                 "Properties": {
-                    "Count": 19,
+                    "Count": 20,
                     "RemovedFieldsets": []
                 }
             }
@@ -413,7 +433,7 @@
             "SurveyID": "SV_6KETqTdatNVMQPc",
             "Element": "QC",
             "PrimaryAttribute": "Survey Question Count",
-            "SecondaryAttribute": "35",
+            "SecondaryAttribute": "36",
             "TertiaryAttribute": null,
             "Payload": null
         },
@@ -460,7 +480,7 @@
             "SecondaryAttribute": "Below is the scenario you will be asked to evaluate. Scenario: SCENARIO_TEXT Action Choice: CHOIC...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below is the scenario you will be asked to evaluate.<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before my sister got it as i knew my sister wasn't ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I'm baffled as to why my sister cant train it or take care of it. I don't think my sister is fit to have this dog and I think the dog would have a better life in another home, I just can't bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.</div></strong></em><br>\n<em><strong><u>Action Choice</u>: <div id=\"choice\">refuse to take care of the dog unless my sister steps up and takes responsibility.</div></strong></em>",
+                "QuestionText": "Below is the scenario you will be asked to evaluate.<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">I met a girl on Tinder a couples of months ago, and after a while we had a date. We had a lot of fun and we connected instantly, but she wasn't interested in anything romantic. No big deal, we kept it to friendship (with sometimes things getting a little more physical, but rarely). We've gotten really close since, we text everyday, we see each other as much as possible, we've talked about a lot of really personal stuff. I thought I did a good job of moving on, that I wasn't interested in her that way anymore. Then, a couple of days ago I spent the night at her place. We drank a lot and it was getting late, so she offered me to stay to sleep, it's closer to my job anyway. We didn't have sex or anything, but we cuddled a lot, even though she's usually not a cuddler. The day after I had a hard time leaving, I've never felt so good in my life. That's when I realised that I was lying to myself, my feelings for her are clearly more than just friendship. But if I tell her how I feel, it might hurt the friendship. She has said that she feared to hurt me, she doesn't want me to feel bad because it's not gonna go further than that, so I kinda feel like an asshole for putting her in that situation.</div></strong></em><br>\n<em><strong><u>Action Choice</u>: <div id=\"choice\">I not say anything and potentially hurt our friendship</div></strong></em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -498,7 +518,7 @@
             "SecondaryAttribute": "Below you will see the scenario, action choice, and outcome: Scenario: SCENARIO_TEXT Action Choic...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome</span>:<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before my sister got it as i knew my sister wasn't ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I'm baffled as to why my sister cant train it or take care of it. I don't think my sister is fit to have this dog and I think the dog would have a better life in another home, I just can't bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.</div><div id=\"scenario\"><br></div><div id=\"scenario\"><u>\nAction Choice</u>:</div><div id=\"scenario\">refuse to take care of the dog unless my sister steps up and takes responsibility.<br></div><br>\n<span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
+                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome</span>:<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">I met a girl on Tinder a couples of months ago, and after a while we had a date. We had a lot of fun and we connected instantly, but she wasn't interested in anything romantic. No big deal, we kept it to friendship (with sometimes things getting a little more physical, but rarely). We've gotten really close since, we text everyday, we see each other as much as possible, we've talked about a lot of really personal stuff. I thought I did a good job of moving on, that I wasn't interested in her that way anymore. Then, a couple of days ago I spent the night at her place. We drank a lot and it was getting late, so she offered me to stay to sleep, it's closer to my job anyway. We didn't have sex or anything, but we cuddled a lot, even though she's usually not a cuddler. The day after I had a hard time leaving, I've never felt so good in my life. That's when I realised that I was lying to myself, my feelings for her are clearly more than just friendship. But if I tell her how I feel, it might hurt the friendship. She has said that she feared to hurt me, she doesn't want me to feel bad because it's not gonna go further than that, so I kinda feel like an asshole for putting her in that situation.</div><div id=\"scenario\"><br></div><div id=\"scenario\"><u>\nAction Choice</u>:</div><div id=\"scenario\">I not say anything and potentially hurt our friendship<br></div><br>\n<span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -554,10 +574,7 @@
                         "Display": "I"
                     },
                     "2": {
-                        "Display": "cousin"
-                    },
-                    "3": {
-                        "Display": "family members including brother and parents"
+                        "Display": "girl"
                     }
                 },
                 "ChoiceOrder": [
@@ -606,10 +623,7 @@
                         "Display": "I"
                     },
                     "2": {
-                        "Display": "cousin"
-                    },
-                    "3": {
-                        "Display": "family members including brother and parents"
+                        "Display": "girl"
                     }
                 },
                 "ChoiceOrder": [
@@ -732,10 +746,7 @@
                         "Display": "I"
                     },
                     "2": {
-                        "Display": "cousin"
-                    },
-                    "3": {
-                        "Display": "family members including brother and parents"
+                        "Display": "girl"
                     }
                 },
                 "ChoiceOrder": [
@@ -782,7 +793,7 @@
             "SecondaryAttribute": "For each of the sentient beings listed below, please indicate whether they would have expected, d...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "For each of the sentient beings listed below, please indicate whether they would have expected, desired, and caused this outcome in this scenario, knowing this action choice. If <em><strong>any</strong></em> of these statements are true, check the corresponding box.<br>\n<br>\n<strong>Expect</strong>: Would they have expected this outcome to happen? Or, would they believe it happened?<br>\n<br>\n<strong>Desire</strong>: Did they want this outcome? Or, did they intend this outcome?<br>\n<br>\n<strong>Cause</strong>: Did they cause this outcome, either directly or inadvertently?&nbsp;<br>\n<br>\n<em><strong><span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
+                "QuestionText": "For each of the sentient beings listed below, please indicate whether they would have expected, desired, and caused this outcome in this scenario, knowing this action choice. If <em><strong>any</strong></em> of these statements are true, check the corresponding box.<br>\n<br>\n<strong>Expect</strong>: Would they have expected this outcome to happen?&nbsp;<br>\n<br>\n<strong>Intend</strong>: Did they intend for this outcome to happen?<br>\n<br>\n<strong>Cause</strong>: Did they cause this outcome, either directly or inadvertently?&nbsp;<br>\n<br>\n<em><strong><span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
                 "DefaultChoices": false,
                 "QuestionType": "Matrix",
                 "Selector": "Likert",
@@ -805,10 +816,7 @@
                         "Display": "I"
                     },
                     "2": {
-                        "Display": "cousin"
-                    },
-                    "3": {
-                        "Display": "family members including brother and parents"
+                        "Display": "girl"
                     }
                 },
                 "ChoiceOrder": [
@@ -834,7 +842,7 @@
                         "Display": "Expect"
                     },
                     "2": {
-                        "Display": "Desire"
+                        "Display": "Intend"
                     },
                     "3": {
                         "Display": "Cause"
@@ -1065,15 +1073,12 @@
                         "Display": "I"
                     },
                     "2": {
-                        "Display": "cousin"
+                        "Display": "girl"
                     },
                     "3": {
-                        "Display": "family members including brother and parents"
-                    },
-                    "4": {
                         "Display": "an old man with a long white beard"
                     },
-                    "5": {
+                    "4": {
                         "Display": "a mouse"
                     }
                 },
@@ -1170,6 +1175,42 @@
                 "NextChoiceId": 4,
                 "NextAnswerId": 1,
                 "QuestionID": "QID4"
+            }
+        },
+        {
+            "SurveyID": "SV_6KETqTdatNVMQPc",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID36",
+            "SecondaryAttribute": "You have considered the following action: CHOICE_TEXT And these possible outcomes: OUTCOME_LIST A...",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "You have considered the following action:<br><br>I not say anything and potentially hurt our friendship<br><br>And these possible outcomes:<br><br><ul><li>I continue to harbor unexpressed romantic feelings.</li><li>I experience emotional discomfort or distress due to unrequited feelings.</li><li>The friendship between me and the girl remains unchanged on the surface.</li><li>I may struggle with feelings of resentment or sadness over time.</li><li>The girl remains unaware of my true feelings, potentially leading to misunderstandings.</li><li>I might miss the opportunity to potentially deepen the relationship, despite the risk involved.</li><li>The dynamic of the friendship could become strained if my feelings intensify or become harder to hide.</li></ul><br><br>Are there other likely outcomes of the action that were not listed? If so, please enter them below.&nbsp;",
+                "DefaultChoices": false,
+                "DataExportTag": "Q18",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "You have considered the following action: CHOICE_TEXT And these possible outcomes: OUTCOME_LIST A...",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID36"
             }
         },
         {
