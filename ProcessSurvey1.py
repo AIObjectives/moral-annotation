@@ -112,13 +112,12 @@ def update_outcome_list_question(template_data, input_data):
 
 
 def process_template(template_file: str, input_files: List[str], output_directory: str):
-    original_template_data = load_json_file(template_file)
     for input_file in input_files:
-        template_data = original_template_data.copy()
+        template_data = load_json_file(template_file)  # Move loading here to ensure a fresh template each time
         input_data = load_json_file(input_file)
         updated_data = find_and_replace_placeholders(template_data, input_data)
         updated_data_with_outcomes = update_looping_options(updated_data, input_data)
-        updated_data_with_outcome_list = update_outcome_list_question(updated_data_with_outcomes, input_data)  # Update the survey with the formatted outcome list
+        updated_data_with_outcome_list = update_outcome_list_question(updated_data_with_outcomes, input_data)
         updated_data_with_name = update_survey_name(updated_data_with_outcome_list, input_file)
         updated_data_consent = update_consent_question(updated_data_with_name)
         updated_data_specific = update_specific_question(updated_data_consent)
@@ -126,6 +125,7 @@ def process_template(template_file: str, input_files: List[str], output_director
         output_filename = "Formatted_" + os.path.basename(input_file)
         output_file = os.path.join(output_directory, output_filename)
         save_json_file(final_updated_data, output_file)
+
 
 
 @app.command()
