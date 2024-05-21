@@ -13,7 +13,7 @@
         "SurveyExpirationDate": "0000-00-00 00:00:00",
         "SurveyCreationDate": "2024-04-22 19:16:12",
         "CreatorID": "UR_2ZPwzuRYfhqZWYR",
-        "LastModified": "2024-05-02 13:57:16",
+        "LastModified": "2024-05-09 17:06:42",
         "LastAccessed": "0000-00-00 00:00:00",
         "LastActivated": "0000-00-00 00:00:00",
         "Deleted": null
@@ -153,10 +153,7 @@
                                     "1": "I may feel guilty or conflicted about not stopping to help."
                                 },
                                 "5": {
-                                    "1": "The person who crashed might have to wait longer for assistance."
-                                },
-                                "6": {
-                                    "1": "I may experience guilt or distress from seeing the dog's welfare decline and the increased pressure on my family members."
+                                    "1": "The person who crashed may have to wait longer for assistance."
                                 }
                             },
                             "Randomization": "All"
@@ -192,6 +189,18 @@
                         {
                             "Type": "Question",
                             "QuestionID": "QID35"
+                        }
+                    ]
+                },
+                "11": {
+                    "Type": "Standard",
+                    "SubType": "",
+                    "Description": "Block 5",
+                    "ID": "BL_bjUA0jMInlVmxN4",
+                    "BlockElements": [
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID36"
                         }
                     ]
                 }
@@ -254,6 +263,11 @@
                         "Autofill": []
                     },
                     {
+                        "ID": "BL_bjUA0jMInlVmxN4",
+                        "Type": "Standard",
+                        "FlowID": "FL_20"
+                    },
+                    {
                         "Type": "Standard",
                         "ID": "BL_3UEz0xwNa5Aqkdw",
                         "FlowID": "FL_17",
@@ -285,7 +299,7 @@
                     }
                 ],
                 "Properties": {
-                    "Count": 19,
+                    "Count": 20,
                     "RemovedFieldsets": []
                 }
             }
@@ -413,7 +427,7 @@
             "SurveyID": "SV_6KETqTdatNVMQPc",
             "Element": "QC",
             "PrimaryAttribute": "Survey Question Count",
-            "SecondaryAttribute": "35",
+            "SecondaryAttribute": "36",
             "TertiaryAttribute": null,
             "Payload": null
         },
@@ -460,7 +474,7 @@
             "SecondaryAttribute": "Below is the scenario you will be asked to evaluate. Scenario: SCENARIO_TEXT Action Choice: CHOIC...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below is the scenario you will be asked to evaluate.<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before my sister got it as i knew my sister wasn't ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I'm baffled as to why my sister cant train it or take care of it. I don't think my sister is fit to have this dog and I think the dog would have a better life in another home, I just can't bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.</div></strong></em><br>\n<em><strong><u>Action Choice</u>: <div id=\"choice\">refuse to take care of the dog unless my sister steps up and takes responsibility.</div></strong></em>",
+                "QuestionText": "Below is the scenario you will be asked to evaluate.<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">I recently got my 1st job and I was super excited. I've been searching for a few months and I finally got hired by a local store. You know what they say, you should never be late to work, especially if it's your very first day of your very first job. The shop is about a half an hour walk from my house and I had to be there at 7:40 to open and prepare before 8 o'clock. I left my home around 7:10 to be extra sure I would arrive on time. After about 15 minutes I was on this really long uphill road when at the end of it I see someone on a bike going extremely fast. After about 4-5 seconds I heard a loud noise and turned my head around to see that he has crashed after, I imagine, going over a pothole. He must have been about 50 meters away from me by then. But my boss is really strict and upsetting him was the last thing I wanted on my first day.</div></strong></em><br>\n<em><strong><u>Action Choice</u>: <div id=\"choice\">I don't stop to help</div></strong></em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -498,7 +512,7 @@
             "SecondaryAttribute": "Below you will see the scenario, action choice, and outcome: Scenario: SCENARIO_TEXT Action Choic...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome</span>:<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before my sister got it as i knew my sister wasn't ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I'm baffled as to why my sister cant train it or take care of it. I don't think my sister is fit to have this dog and I think the dog would have a better life in another home, I just can't bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.</div><div id=\"scenario\"><br></div><div id=\"scenario\"><u>\nAction Choice</u>:</div><div id=\"scenario\">refuse to take care of the dog unless my sister steps up and takes responsibility.<br></div><br>\n<span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
+                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome</span>:<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">I recently got my 1st job and I was super excited. I've been searching for a few months and I finally got hired by a local store. You know what they say, you should never be late to work, especially if it's your very first day of your very first job. The shop is about a half an hour walk from my house and I had to be there at 7:40 to open and prepare before 8 o'clock. I left my home around 7:10 to be extra sure I would arrive on time. After about 15 minutes I was on this really long uphill road when at the end of it I see someone on a bike going extremely fast. After about 4-5 seconds I heard a loud noise and turned my head around to see that he has crashed after, I imagine, going over a pothole. He must have been about 50 meters away from me by then. But my boss is really strict and upsetting him was the last thing I wanted on my first day.</div><div id=\"scenario\"><br></div><div id=\"scenario\"><u>\nAction Choice</u>:</div><div id=\"scenario\">I don't stop to help<br></div><br>\n<span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -782,7 +796,7 @@
             "SecondaryAttribute": "For each of the sentient beings listed below, please indicate whether they would have expected, d...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "For each of the sentient beings listed below, please indicate whether they would have expected, desired, and caused this outcome in this scenario, knowing this action choice. If <em><strong>any</strong></em> of these statements are true, check the corresponding box.<br>\n<br>\n<strong>Expect</strong>: Would they have expected this outcome to happen? Or, would they believe it happened?<br>\n<br>\n<strong>Desire</strong>: Did they want this outcome? Or, did they intend this outcome?<br>\n<br>\n<strong>Cause</strong>: Did they cause this outcome, either directly or inadvertently?&nbsp;<br>\n<br>\n<em><strong><span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
+                "QuestionText": "For each of the sentient beings listed below, please indicate whether they would have expected, desired, and caused this outcome in this scenario, knowing this action choice. If <em><strong>any</strong></em> of these statements are true, check the corresponding box.<br>\n<br>\n<strong>Expect</strong>: Would they have expected this outcome to happen?&nbsp;<br>\n<br>\n<strong>Intend</strong>: Did they intend for this outcome to happen?<br>\n<br>\n<strong>Cause</strong>: Did they cause this outcome, either directly or inadvertently?&nbsp;<br>\n<br>\n<em><strong><span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
                 "DefaultChoices": false,
                 "QuestionType": "Matrix",
                 "Selector": "Likert",
@@ -834,7 +848,7 @@
                         "Display": "Expect"
                     },
                     "2": {
-                        "Display": "Desire"
+                        "Display": "Intend"
                     },
                     "3": {
                         "Display": "Cause"
@@ -1170,6 +1184,42 @@
                 "NextChoiceId": 4,
                 "NextAnswerId": 1,
                 "QuestionID": "QID4"
+            }
+        },
+        {
+            "SurveyID": "SV_6KETqTdatNVMQPc",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID36",
+            "SecondaryAttribute": "You have considered the following action: CHOICE_TEXT And these possible outcomes: OUTCOME_LIST A...",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "You have considered the following action:<br><br>I don't stop to help<br><br>And these possible outcomes:<br><br><ul><li>I arrive at work on time.</li><li>My boss is not upset with me for being late.</li><li>The person who crashed may not receive immediate help from me.</li><li>I may feel guilty or conflicted about not stopping to help.</li><li>The person who crashed may have to wait longer for assistance.</li></ul><br><br>Are there other likely outcomes of the action that were not listed? If so, please enter them below.&nbsp;",
+                "DefaultChoices": false,
+                "DataExportTag": "Q18",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "You have considered the following action: CHOICE_TEXT And these possible outcomes: OUTCOME_LIST A...",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID36"
             }
         },
         {

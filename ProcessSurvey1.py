@@ -95,20 +95,37 @@ def update_real_world_experience_question(template_data):
             break
     return template_data
 
+
+def update_outcome_list_question(template_data, input_data):
+    outcomes = input_data[0]['outcomes']
+    # Formatting each outcome as an HTML list item
+    formatted_outcome_list = "<ul>" + "".join(f"<li>{outcome}</li>" for outcome in outcomes) + "</ul>"
+
+    for element in template_data['SurveyElements']:
+        if element['Element'] == 'SQ' and 'Payload' in element:
+            if element['Payload'].get('DataExportTag') == 'Q18':
+                # Replace 'OUTCOME_LIST' with the formatted list of outcomes
+                element['Payload']['QuestionText'] = element['Payload']['QuestionText'].replace('OUTCOME_LIST', formatted_outcome_list)
+                break
+    return template_data
+
+
 def process_template(template_file: str, input_files: List[str], output_directory: str):
-    original_template_data = load_json_file(template_file)
     for input_file in input_files:
-        template_data = original_template_data.copy()
+        template_data = load_json_file(template_file)  # Move loading here to ensure a fresh template each time
         input_data = load_json_file(input_file)
         updated_data = find_and_replace_placeholders(template_data, input_data)
         updated_data_with_outcomes = update_looping_options(updated_data, input_data)
-        updated_data_with_name = update_survey_name(updated_data_with_outcomes, input_file)
+        updated_data_with_outcome_list = update_outcome_list_question(updated_data_with_outcomes, input_data)
+        updated_data_with_name = update_survey_name(updated_data_with_outcome_list, input_file)
         updated_data_consent = update_consent_question(updated_data_with_name)
         updated_data_specific = update_specific_question(updated_data_consent)
         final_updated_data = update_real_world_experience_question(updated_data_specific)
         output_filename = "Formatted_" + os.path.basename(input_file)
         output_file = os.path.join(output_directory, output_filename)
         save_json_file(final_updated_data, output_file)
+
+
 
 @app.command()
 
@@ -128,3 +145,4 @@ if __name__ == "__main__":
     app()
 
 ## TO RUN THE SCRIPT: python3.11 ProcessSurvey1.py Annotation_Validation_Study_template.json 
+

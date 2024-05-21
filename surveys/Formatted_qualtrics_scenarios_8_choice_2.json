@@ -1,7 +1,7 @@
 {
     "SurveyEntry": {
         "SurveyID": "SV_6KETqTdatNVMQPc",
-        "SurveyName": "Annotation Validation Study [qualtrics_scenarios_3_choice_1]",
+        "SurveyName": "Annotation Validation Study [qualtrics_scenarios_8_choice_2]",
         "SurveyDescription": null,
         "SurveyOwnerID": "UR_2ZPwzuRYfhqZWYR",
         "SurveyBrandID": "qualtricsxmhxsm8yb3m",
@@ -13,7 +13,7 @@
         "SurveyExpirationDate": "0000-00-00 00:00:00",
         "SurveyCreationDate": "2024-04-22 19:16:12",
         "CreatorID": "UR_2ZPwzuRYfhqZWYR",
-        "LastModified": "2024-05-02 13:57:16",
+        "LastModified": "2024-05-09 17:06:42",
         "LastAccessed": "0000-00-00 00:00:00",
         "LastActivated": "0000-00-00 00:00:00",
         "Deleted": null
@@ -141,22 +141,19 @@
                         "LoopingOptions": {
                             "Static": {
                                 "1": {
-                                    "1": "My girlfriend may feel betrayed and hurt by my decision to contradict her account of the incident"
+                                    "1": "My financial strain may increase."
                                 },
                                 "2": {
-                                    "1": "There may be tension and conflict between us and my girlfriend due to the contradiction in our statements to the police"
+                                    "1": "My relationship with my ex-partner may improve."
                                 },
                                 "3": {
-                                    "1": "The police may become suspicious of the conflicting statements and may investigate further to determine the truth"
+                                    "1": "My son may receive better or more consistent medical care or support."
                                 },
                                 "4": {
-                                    "1": "The other driver may deny making any derogatory remarks, leading to a he-said-she-said situation"
+                                    "1": "My son may be able to attend the summer camp for kids with epilepsy."
                                 },
                                 "5": {
-                                    "1": "The relationship between me and my girlfriend may be strained as a result of the differing statements given to the police"
-                                },
-                                "6": {
-                                    "1": "I may experience guilt or distress from seeing the dog's welfare decline and the increased pressure on my family members."
+                                    "1": "My ex-partner may experience reduced financial stress."
                                 }
                             },
                             "Randomization": "All"
@@ -192,6 +189,18 @@
                         {
                             "Type": "Question",
                             "QuestionID": "QID35"
+                        }
+                    ]
+                },
+                "11": {
+                    "Type": "Standard",
+                    "SubType": "",
+                    "Description": "Block 5",
+                    "ID": "BL_bjUA0jMInlVmxN4",
+                    "BlockElements": [
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID36"
                         }
                     ]
                 }
@@ -254,6 +263,11 @@
                         "Autofill": []
                     },
                     {
+                        "ID": "BL_bjUA0jMInlVmxN4",
+                        "Type": "Standard",
+                        "FlowID": "FL_20"
+                    },
+                    {
                         "Type": "Standard",
                         "ID": "BL_3UEz0xwNa5Aqkdw",
                         "FlowID": "FL_17",
@@ -285,7 +299,7 @@
                     }
                 ],
                 "Properties": {
-                    "Count": 19,
+                    "Count": 20,
                     "RemovedFieldsets": []
                 }
             }
@@ -413,7 +427,7 @@
             "SurveyID": "SV_6KETqTdatNVMQPc",
             "Element": "QC",
             "PrimaryAttribute": "Survey Question Count",
-            "SecondaryAttribute": "35",
+            "SecondaryAttribute": "36",
             "TertiaryAttribute": null,
             "Payload": null
         },
@@ -460,7 +474,7 @@
             "SecondaryAttribute": "Below is the scenario you will be asked to evaluate. Scenario: SCENARIO_TEXT Action Choice: CHOIC...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below is the scenario you will be asked to evaluate.<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before my sister got it as i knew my sister wasn't ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I'm baffled as to why my sister cant train it or take care of it. I don't think my sister is fit to have this dog and I think the dog would have a better life in another home, I just can't bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.</div></strong></em><br>\n<em><strong><u>Action Choice</u>: <div id=\"choice\">refuse to take care of the dog unless my sister steps up and takes responsibility.</div></strong></em>",
+                "QuestionText": "Below is the scenario you will be asked to evaluate.<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">When we first got divorced our son was 4. He was perfectly healthy and she got primary custody. I asked for and received every other weekend. The court ordered me to pay a set amount of child support a month. I pay it. She carries health insurance and pays for day care. I just pay the court ordered amount that lines up with my income.  About a year ago he started having seizures. Some of them lasted a long time which led to some hospitalizations. That led to a host of appts at specialist and she took a leave from work to deal with it all. I work erratic hours and go to college so although I visited him at the hospital a few times.  I couldn\u2019t make it to the appts. The medical bills came rolling in and she asked me to help. I don\u2019t have any more money so I told her no. She asked me to watch him sometimes so she could go back to work and make up some hours so she could pay the bills. I told her to get a babysitter. She said she couldn\u2019t afford one. I can\u2019t see him during the week because of my school schedule and work schedule so I told her no. The court order says nothing about medical bills and me having to pay half. Now she wants to enroll him in some kind of summer camp for kids with epilepsy because she said sending him to a regular daycare is hard since they often don\u2019t know how to deal with his seizures. She asked if I could at least help pay for some of it. Even a small portion. Again, I\u2019ve no money so I said no. Now she wants to be in a medical trial for the seizures but the doctor won\u2019t let her in unless he can meet with me but he can only meet with me during the week. They are claiming it is because there are overnights involved. I am busy then. I also think the study isn\u2019t necessary. Medicine is controlling them mostly. I am poor college student. I just don\u2019t have the money. She says I am an asshole for only paying the bare minimum and never helping out more. My argument is that I pay child support as ordered and I take my every other weekend. I do my part. I do what is required. I am not her partner anymore and I don\u2019t think it is my job to help her out.</div></strong></em><br>\n<em><strong><u>Action Choice</u>: <div id=\"choice\">I decide tooffer to pay more of my son's expenses</div></strong></em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -498,7 +512,7 @@
             "SecondaryAttribute": "Below you will see the scenario, action choice, and outcome: Scenario: SCENARIO_TEXT Action Choic...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome</span>:<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before my sister got it as i knew my sister wasn't ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I'm baffled as to why my sister cant train it or take care of it. I don't think my sister is fit to have this dog and I think the dog would have a better life in another home, I just can't bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.</div><div id=\"scenario\"><br></div><div id=\"scenario\"><u>\nAction Choice</u>:</div><div id=\"scenario\">refuse to take care of the dog unless my sister steps up and takes responsibility.<br></div><br>\n<span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
+                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome</span>:<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">When we first got divorced our son was 4. He was perfectly healthy and she got primary custody. I asked for and received every other weekend. The court ordered me to pay a set amount of child support a month. I pay it. She carries health insurance and pays for day care. I just pay the court ordered amount that lines up with my income.  About a year ago he started having seizures. Some of them lasted a long time which led to some hospitalizations. That led to a host of appts at specialist and she took a leave from work to deal with it all. I work erratic hours and go to college so although I visited him at the hospital a few times.  I couldn\u2019t make it to the appts. The medical bills came rolling in and she asked me to help. I don\u2019t have any more money so I told her no. She asked me to watch him sometimes so she could go back to work and make up some hours so she could pay the bills. I told her to get a babysitter. She said she couldn\u2019t afford one. I can\u2019t see him during the week because of my school schedule and work schedule so I told her no. The court order says nothing about medical bills and me having to pay half. Now she wants to enroll him in some kind of summer camp for kids with epilepsy because she said sending him to a regular daycare is hard since they often don\u2019t know how to deal with his seizures. She asked if I could at least help pay for some of it. Even a small portion. Again, I\u2019ve no money so I said no. Now she wants to be in a medical trial for the seizures but the doctor won\u2019t let her in unless he can meet with me but he can only meet with me during the week. They are claiming it is because there are overnights involved. I am busy then. I also think the study isn\u2019t necessary. Medicine is controlling them mostly. I am poor college student. I just don\u2019t have the money. She says I am an asshole for only paying the bare minimum and never helping out more. My argument is that I pay child support as ordered and I take my every other weekend. I do my part. I do what is required. I am not her partner anymore and I don\u2019t think it is my job to help her out.</div><div id=\"scenario\"><br></div><div id=\"scenario\"><u>\nAction Choice</u>:</div><div id=\"scenario\">I decide tooffer to pay more of my son's expenses<br></div><br>\n<span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -551,16 +565,13 @@
                 "QuestionDescription": "Click to write the question text",
                 "Choices": {
                     "1": {
-                        "Display": "girlfriend"
-                    },
-                    "2": {
                         "Display": "I"
                     },
-                    "3": {
-                        "Display": "other guy"
+                    "2": {
+                        "Display": "our son"
                     },
-                    "4": {
-                        "Display": "police"
+                    "3": {
+                        "Display": "she"
                     }
                 },
                 "ChoiceOrder": [
@@ -606,16 +617,13 @@
                 "QuestionDescription": "Click to write the question text",
                 "Choices": {
                     "1": {
-                        "Display": "girlfriend"
-                    },
-                    "2": {
                         "Display": "I"
                     },
-                    "3": {
-                        "Display": "other guy"
+                    "2": {
+                        "Display": "our son"
                     },
-                    "4": {
-                        "Display": "police"
+                    "3": {
+                        "Display": "she"
                     }
                 },
                 "ChoiceOrder": [
@@ -735,16 +743,13 @@
                 "QuestionDescription": "For each of the sentient beings below, please indicate whether this outcome would have a good or...",
                 "Choices": {
                     "1": {
-                        "Display": "girlfriend"
-                    },
-                    "2": {
                         "Display": "I"
                     },
-                    "3": {
-                        "Display": "other guy"
+                    "2": {
+                        "Display": "our son"
                     },
-                    "4": {
-                        "Display": "police"
+                    "3": {
+                        "Display": "she"
                     }
                 },
                 "ChoiceOrder": [
@@ -791,7 +796,7 @@
             "SecondaryAttribute": "For each of the sentient beings listed below, please indicate whether they would have expected, d...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "For each of the sentient beings listed below, please indicate whether they would have expected, desired, and caused this outcome in this scenario, knowing this action choice. If <em><strong>any</strong></em> of these statements are true, check the corresponding box.<br>\n<br>\n<strong>Expect</strong>: Would they have expected this outcome to happen? Or, would they believe it happened?<br>\n<br>\n<strong>Desire</strong>: Did they want this outcome? Or, did they intend this outcome?<br>\n<br>\n<strong>Cause</strong>: Did they cause this outcome, either directly or inadvertently?&nbsp;<br>\n<br>\n<em><strong><span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
+                "QuestionText": "For each of the sentient beings listed below, please indicate whether they would have expected, desired, and caused this outcome in this scenario, knowing this action choice. If <em><strong>any</strong></em> of these statements are true, check the corresponding box.<br>\n<br>\n<strong>Expect</strong>: Would they have expected this outcome to happen?&nbsp;<br>\n<br>\n<strong>Intend</strong>: Did they intend for this outcome to happen?<br>\n<br>\n<strong>Cause</strong>: Did they cause this outcome, either directly or inadvertently?&nbsp;<br>\n<br>\n<em><strong><span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
                 "DefaultChoices": false,
                 "QuestionType": "Matrix",
                 "Selector": "Likert",
@@ -811,16 +816,13 @@
                 "QuestionDescription": "For each of the sentient beings listed below, please indicate whether they would have expected, d...",
                 "Choices": {
                     "1": {
-                        "Display": "girlfriend"
-                    },
-                    "2": {
                         "Display": "I"
                     },
-                    "3": {
-                        "Display": "other guy"
+                    "2": {
+                        "Display": "our son"
                     },
-                    "4": {
-                        "Display": "police"
+                    "3": {
+                        "Display": "she"
                     }
                 },
                 "ChoiceOrder": [
@@ -846,7 +848,7 @@
                         "Display": "Expect"
                     },
                     "2": {
-                        "Display": "Desire"
+                        "Display": "Intend"
                     },
                     "3": {
                         "Display": "Cause"
@@ -1074,21 +1076,18 @@
                 "QuestionDescription": "Please identify every sentient being that is named in the scenario. A sentient being is a living...",
                 "Choices": {
                     "1": {
-                        "Display": "girlfriend"
-                    },
-                    "2": {
                         "Display": "I"
                     },
+                    "2": {
+                        "Display": "our son"
+                    },
                     "3": {
-                        "Display": "other guy"
+                        "Display": "she"
                     },
                     "4": {
-                        "Display": "police"
-                    },
-                    "5": {
                         "Display": "an old man with a long white beard"
                     },
-                    "6": {
+                    "5": {
                         "Display": "a mouse"
                     }
                 },
@@ -1185,6 +1184,42 @@
                 "NextChoiceId": 4,
                 "NextAnswerId": 1,
                 "QuestionID": "QID4"
+            }
+        },
+        {
+            "SurveyID": "SV_6KETqTdatNVMQPc",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID36",
+            "SecondaryAttribute": "You have considered the following action: CHOICE_TEXT And these possible outcomes: OUTCOME_LIST A...",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "You have considered the following action:<br><br>I decide tooffer to pay more of my son's expenses<br><br>And these possible outcomes:<br><br><ul><li>My financial strain may increase.</li><li>My relationship with my ex-partner may improve.</li><li>My son may receive better or more consistent medical care or support.</li><li>My son may be able to attend the summer camp for kids with epilepsy.</li><li>My ex-partner may experience reduced financial stress.</li></ul><br><br>Are there other likely outcomes of the action that were not listed? If so, please enter them below.&nbsp;",
+                "DefaultChoices": false,
+                "DataExportTag": "Q18",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "You have considered the following action: CHOICE_TEXT And these possible outcomes: OUTCOME_LIST A...",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID36"
             }
         },
         {
