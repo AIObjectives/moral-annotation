@@ -8,14 +8,14 @@
         "DivisionID": null,
         "SurveyLanguage": "EN",
         "SurveyActiveResponseSet": "RS_bI0Alu22DaJZF5A",
-        "SurveyStatus": "Inactive",
+        "SurveyStatus": "Active",
         "SurveyStartDate": "0000-00-00 00:00:00",
         "SurveyExpirationDate": "0000-00-00 00:00:00",
         "SurveyCreationDate": "2024-04-22 19:16:12",
         "CreatorID": "UR_2ZPwzuRYfhqZWYR",
-        "LastModified": "2024-05-09 17:06:42",
+        "LastModified": "2024-05-17 23:13:19",
         "LastAccessed": "0000-00-00 00:00:00",
-        "LastActivated": "0000-00-00 00:00:00",
+        "LastActivated": "2024-05-15 15:54:21",
         "Deleted": null
     },
     "SurveyElements": [
@@ -49,6 +49,17 @@
                         {
                             "Type": "Question",
                             "QuestionID": "QID26"
+                        },
+                        {
+                            "Type": "Page Break"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID37"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID38"
                         },
                         {
                             "Type": "Page Break"
@@ -150,16 +161,13 @@
                                     "1": "My relationship with my older sister may become more strained due to my stance."
                                 },
                                 "4": {
-                                    "1": "The dog may continue to exhibit untrained behavior, such as peeing and pooping indoors."
-                                },
-                                "5": {
                                     "1": "My mother and younger sister may experience increased stress and frustration."
                                 },
-                                "6": {
-                                    "1": "The living conditions in the apartment may deteriorate further due to lack of proper cleaning."
+                                "5": {
+                                    "1": "The dog may continue to suffer from a lack of proper training, attention, and care."
                                 },
-                                "7": {
-                                    "1": "I may experience guilt or distress from witnessing the dog's ongoing neglect."
+                                "6": {
+                                    "1": "The living conditions in the apartment may deteriorate further without my assistance."
                                 }
                             },
                             "Randomization": "All"
@@ -269,9 +277,10 @@
                         "Autofill": []
                     },
                     {
-                        "ID": "BL_bjUA0jMInlVmxN4",
                         "Type": "Standard",
-                        "FlowID": "FL_20"
+                        "ID": "BL_bjUA0jMInlVmxN4",
+                        "FlowID": "FL_20",
+                        "Autofill": []
                     },
                     {
                         "Type": "Standard",
@@ -287,6 +296,14 @@
                                 "Description": "SessionID",
                                 "Type": "Recipient",
                                 "Field": "SessionID",
+                                "VariableType": "String",
+                                "DataVisibility": [],
+                                "AnalyzeText": false
+                            },
+                            {
+                                "Description": "PROLIFIC_PID",
+                                "Type": "Recipient",
+                                "Field": "PROLIFIC_PID",
                                 "VariableType": "String",
                                 "DataVisibility": [],
                                 "AnalyzeText": false
@@ -433,7 +450,7 @@
             "SurveyID": "SV_6KETqTdatNVMQPc",
             "Element": "QC",
             "PrimaryAttribute": "Survey Question Count",
-            "SecondaryAttribute": "36",
+            "SecondaryAttribute": "38",
             "TertiaryAttribute": null,
             "Payload": null
         },
@@ -441,10 +458,10 @@
             "SurveyID": "SV_6KETqTdatNVMQPc",
             "Element": "SQ",
             "PrimaryAttribute": "QID26",
-            "SecondaryAttribute": "Are there any other sentient beings in the scenario that were not listed already? [optional]",
+            "SecondaryAttribute": "Are there any other sentient beings in the scenario that were not listed? [optional]",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Are there any other sentient beings in the scenario that were not listed already? <span style=\"color:#2c3e50;\">[optional]</span>",
+                "QuestionText": "Are there any other sentient beings in the scenario that were not listed? <span style=\"color:#2c3e50;\">[optional]</span>",
                 "DefaultChoices": false,
                 "DataExportTag": "other_entities",
                 "QuestionID": "QID26",
@@ -457,7 +474,7 @@
                 "Configuration": {
                     "QuestionDescriptionOption": "UseText"
                 },
-                "QuestionDescription": "Are there any other sentient beings in the scenario that were not listed already? [optional]",
+                "QuestionDescription": "Are there any other sentient beings in the scenario that were not listed? [optional]",
                 "Validation": {
                     "Settings": {
                         "ForceResponse": "OFF",
@@ -476,11 +493,164 @@
         {
             "SurveyID": "SV_6KETqTdatNVMQPc",
             "Element": "SQ",
+            "PrimaryAttribute": "QID38",
+            "SecondaryAttribute": "Are there any other virtues or anti-values that characterize this action?",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Are there any other virtues or anti-values that characterize this action?",
+                "DefaultChoices": false,
+                "DataExportTag": "Q20",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Are there any other virtues or anti-values that characterize this action?",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID38"
+            }
+        },
+        {
+            "SurveyID": "SV_6KETqTdatNVMQPc",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID37",
+            "SecondaryAttribute": "Below is the same scenario and action again.\u00a0 Scenario:SCENARIO_TEXT Action Choice: CHOICE_TEXT I..",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Below is the same scenario and action again.&nbsp;<br><br><b><i><u>\nScenario:</u><br></i>My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before my sister got it as i knew my sister wasn't ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I'm baffled as to why my sister cant train it or take care of it. I don't think my sister is fit to have this dog and I think the dog would have a better life in another home, I just can't bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.</b><br><u><b><br><i>Action Choice:\n</i><br></b></u><b>I decide torefuse to take care of the dog unless my sister steps up and takes responsibility.<br></b><br><br>In your opinion, to what extent is this action characterized by the following values and anti-values?<br><br>",
+                "DefaultChoices": false,
+                "DataExportTag": "values_q",
+                "QuestionType": "Slider",
+                "Selector": "HSLIDER",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "CSSliderMin": 0,
+                    "CSSliderMax": 100,
+                    "GridLines": 10,
+                    "SnapToGrid": false,
+                    "NumDecimals": "0",
+                    "ShowValue": true,
+                    "CustomStart": true,
+                    "SliderStartPositions": {
+                        "1": 0.5,
+                        "2": 0.5,
+                        "3": 0.5,
+                        "4": 0.5,
+                        "5": 0.5,
+                        "6": 0.5,
+                        "7": 0.5,
+                        "8": 0.5,
+                        "9": 0.5,
+                        "10": 0.5,
+                        "11": 0.5
+                    },
+                    "NotApplicable": false,
+                    "MobileFirst": true
+                },
+                "QuestionDescription": "Below is the same scenario and action again.\u00a0 Scenario:SCENARIO_TEXT Action Choice: CHOICE_TEXT I...",
+                "Choices": {
+                    "1": {
+                        "Display": "responsibility"
+                    },
+                    "2": {
+                        "Display": "fairness"
+                    },
+                    "3": {
+                        "Display": "autonomy"
+                    },
+                    "4": {
+                        "Display": "accountability"
+                    },
+                    "5": {
+                        "Display": "boundaries"
+                    },
+                    "6": {
+                        "Display": "cooperation"
+                    },
+                    "7": {
+                        "Display": "family harmony"
+                    },
+                    "8": {
+                        "Display": "irresponsibility"
+                    },
+                    "9": {
+                        "Display": "lack of compassion"
+                    },
+                    "10": {
+                        "Display": "selfishness"
+                    },
+                    "11": {
+                        "Display": "neglect"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11"
+                ],
+                "Randomization": {
+                    "Advanced": null,
+                    "TotalRandSubset": "",
+                    "Type": "All"
+                },
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 12,
+                "NextAnswerId": 6,
+                "Labels": {
+                    "1": {
+                        "Display": "Does not characterize this action"
+                    },
+                    "5": {
+                        "Display": "Very much characterizes this action"
+                    }
+                },
+                "QuestionID": "QID37"
+            }
+        },
+        {
+            "SurveyID": "SV_6KETqTdatNVMQPc",
+            "Element": "SQ",
             "PrimaryAttribute": "QID24",
             "SecondaryAttribute": "Below is the scenario you will be asked to evaluate. Scenario: SCENARIO_TEXT Action Choice: CHOIC...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below is the scenario you will be asked to evaluate.<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before my sister got it as i knew my sister wasn't ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I'm baffled as to why my sister cant train it or take care of it. I don't think my sister is fit to have this dog and I think the dog would have a better life in another home, I just can't bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.</div></strong></em><br>\n<em><strong><u>Action Choice</u>: <div id=\"choice\">I refuse to take care of the dog unless my sister steps up and takes responsibility.</div></strong></em>",
+                "QuestionText": "Below is the scenario you will be asked to evaluate.<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before my sister got it as i knew my sister wasn't ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I'm baffled as to why my sister cant train it or take care of it. I don't think my sister is fit to have this dog and I think the dog would have a better life in another home, I just can't bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.</div></strong></em><br>\n<em><strong><u>Action Choice</u>: <div id=\"choice\">I decide torefuse to take care of the dog unless my sister steps up and takes responsibility.</div></strong></em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -518,7 +688,7 @@
             "SecondaryAttribute": "Below you will see the scenario, action choice, and outcome: Scenario: SCENARIO_TEXT Action Choic...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome</span>:<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before my sister got it as i knew my sister wasn't ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I'm baffled as to why my sister cant train it or take care of it. I don't think my sister is fit to have this dog and I think the dog would have a better life in another home, I just can't bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.</div><div id=\"scenario\"><br></div><div id=\"scenario\"><u>\nAction Choice</u>:</div><div id=\"scenario\">I refuse to take care of the dog unless my sister steps up and takes responsibility.<br></div><br>\n<span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
+                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome</span>:<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before my sister got it as i knew my sister wasn't ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I'm baffled as to why my sister cant train it or take care of it. I don't think my sister is fit to have this dog and I think the dog would have a better life in another home, I just can't bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.</div><div id=\"scenario\"><br></div><div id=\"scenario\"><u>\nAction Choice</u>:</div><div id=\"scenario\">I decide torefuse to take care of the dog unless my sister steps up and takes responsibility.<br></div><br>\n<span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -571,10 +741,10 @@
                 "QuestionDescription": "Click to write the question text",
                 "Choices": {
                     "1": {
-                        "Display": "older sister"
+                        "Display": "I"
                     },
                     "2": {
-                        "Display": "dog"
+                        "Display": "older sister"
                     },
                     "3": {
                         "Display": "mother"
@@ -583,7 +753,7 @@
                         "Display": "younger sister"
                     },
                     "5": {
-                        "Display": "I"
+                        "Display": "dog"
                     }
                 },
                 "ChoiceOrder": [
@@ -629,10 +799,10 @@
                 "QuestionDescription": "Click to write the question text",
                 "Choices": {
                     "1": {
-                        "Display": "older sister"
+                        "Display": "I"
                     },
                     "2": {
-                        "Display": "dog"
+                        "Display": "older sister"
                     },
                     "3": {
                         "Display": "mother"
@@ -641,7 +811,7 @@
                         "Display": "younger sister"
                     },
                     "5": {
-                        "Display": "I"
+                        "Display": "dog"
                     }
                 },
                 "ChoiceOrder": [
@@ -761,10 +931,10 @@
                 "QuestionDescription": "For each of the sentient beings below, please indicate whether this outcome would have a good or...",
                 "Choices": {
                     "1": {
-                        "Display": "older sister"
+                        "Display": "I"
                     },
                     "2": {
-                        "Display": "dog"
+                        "Display": "older sister"
                     },
                     "3": {
                         "Display": "mother"
@@ -773,7 +943,7 @@
                         "Display": "younger sister"
                     },
                     "5": {
-                        "Display": "I"
+                        "Display": "dog"
                     }
                 },
                 "ChoiceOrder": [
@@ -797,13 +967,13 @@
                 "NextAnswerId": 5,
                 "Labels": {
                     "1": {
-                        "Display": "Absolutely bad for them"
+                        "Display": "Very bad for them"
                     },
                     "2": {
                         "Display": "Neutral / no impact"
                     },
                     "3": {
-                        "Display": "Absolutely good for them"
+                        "Display": "Very good for them"
                     }
                 },
                 "Randomization": {
@@ -840,10 +1010,10 @@
                 "QuestionDescription": "For each of the sentient beings listed below, please indicate whether they would have expected, d...",
                 "Choices": {
                     "1": {
-                        "Display": "older sister"
+                        "Display": "I"
                     },
                     "2": {
-                        "Display": "dog"
+                        "Display": "older sister"
                     },
                     "3": {
                         "Display": "mother"
@@ -852,7 +1022,7 @@
                         "Display": "younger sister"
                     },
                     "5": {
-                        "Display": "I"
+                        "Display": "dog"
                     }
                 },
                 "ChoiceOrder": [
@@ -1106,10 +1276,10 @@
                 "QuestionDescription": "Please identify every sentient being that is named in the scenario. A sentient being is a living...",
                 "Choices": {
                     "1": {
-                        "Display": "older sister"
+                        "Display": "I"
                     },
                     "2": {
-                        "Display": "dog"
+                        "Display": "older sister"
                     },
                     "3": {
                         "Display": "mother"
@@ -1118,7 +1288,7 @@
                         "Display": "younger sister"
                     },
                     "5": {
-                        "Display": "I"
+                        "Display": "dog"
                     },
                     "6": {
                         "Display": "an old man with a long white beard"
@@ -1160,10 +1330,10 @@
             "SurveyID": "SV_6KETqTdatNVMQPc",
             "Element": "SQ",
             "PrimaryAttribute": "QID35",
-            "SecondaryAttribute": "Thank you for completing the survey. \u200b\u200b\u200b\u200b\u200b\u200b\u200bPlease enter this completion code into Pro",
+            "SecondaryAttribute": "Thank you for completing the survey. Please enter this completion code into Prolific:\u00a0 CUUT28RO \u00a0",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Thank you for completing the survey. \u200b\u200b\u200b\u200b\u200b\u200b\u200bPlease enter this completion code into Prolific: ${e://Field/SessionID}<br><br><br>",
+                "QuestionText": "Thank you for completing the survey. Please enter this completion code into Prolific:&nbsp;\n<br><br><div style=\"text-align: center;\"><b>CUUT28RO</b></div>\n<br>\n&nbsp;",
                 "DefaultChoices": false,
                 "DataExportTag": "Q17",
                 "QuestionType": "DB",
@@ -1175,7 +1345,7 @@
                 "Configuration": {
                     "QuestionDescriptionOption": "UseText"
                 },
-                "QuestionDescription": "Thank you for completing the survey. \u200b\u200b\u200b\u200b\u200b\u200b\u200bPlease enter this completion code into Prolific: ...",
+                "QuestionDescription": "Thank you for completing the survey. Please enter this completion code into Prolific:\u00a0 CUUT28RO \u00a0",
                 "ChoiceOrder": [],
                 "Validation": {
                     "Settings": {
@@ -1229,7 +1399,7 @@
             "SecondaryAttribute": "You have considered the following action: CHOICE_TEXT And these possible outcomes: OUTCOME_LIST A...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "You have considered the following action:<br><br>I refuse to take care of the dog unless my sister steps up and takes responsibility.<br><br>And these possible outcomes:<br><br><ul><li>My refusal to help may increase the burden on my mother and younger sister.</li><li>The dog's care and living conditions may not improve, continuing the cycle of neglect.</li><li>My relationship with my older sister may become more strained due to my stance.</li><li>The dog may continue to exhibit untrained behavior, such as peeing and pooping indoors.</li><li>My mother and younger sister may experience increased stress and frustration.</li><li>The living conditions in the apartment may deteriorate further due to lack of proper cleaning.</li><li>I may experience guilt or distress from witnessing the dog's ongoing neglect.</li></ul><br><br>Are there other likely outcomes of the action that were not listed? If so, please enter them below.&nbsp;",
+                "QuestionText": "You have considered the following action:<br><br>I decide torefuse to take care of the dog unless my sister steps up and takes responsibility.<br><br>And these possible outcomes:<br><br><ul><li>My refusal to help may increase the burden on my mother and younger sister.</li><li>The dog's care and living conditions may not improve, continuing the cycle of neglect.</li><li>My relationship with my older sister may become more strained due to my stance.</li><li>My mother and younger sister may experience increased stress and frustration.</li><li>The dog may continue to suffer from a lack of proper training, attention, and care.</li><li>The living conditions in the apartment may deteriorate further without my assistance.</li></ul><br><br>Are there other likely outcomes of the action that were not listed? If so, please enter them below.&nbsp;",
                 "DefaultChoices": false,
                 "DataExportTag": "Q18",
                 "QuestionType": "TE",

@@ -109,6 +109,70 @@ def update_outcome_list_question(template_data, input_data):
                 break
     return template_data
 
+##new added part
+# def update_values_question(template_data, input_data):
+#     values = input_data[0]['values']
+#     for element in template_data['SurveyElements']:
+#         if element['Element'] == 'SQ' and element.get('Payload', {}).get('DataExportTag') == 'values_q':
+#             payload = element['Payload']
+#             choices = payload.get('Choices', {})
+#             for idx, value in enumerate(values, start=1):
+#                 choice_key = str(idx)
+#                 choices[choice_key] = {"Display": value}
+#                 payload['ChoiceOrder'].append(choice_key)  # Update choice order to include new choices
+
+#             # Update the template payload with modified choices
+#             payload['Choices'] = choices
+#             payload['NextChoiceId'] = len(values) + 1  # Update to reflect the next available choice ID
+#     return template_data
+
+# def update_values_question(template_data, input_data):
+#     values = input_data[0]['values']
+#     for element in template_data['SurveyElements']:
+#         if element['Element'] == 'SQ' and element.get('Payload', {}).get('DataExportTag') == 'values_q':
+#             payload = element['Payload']
+#             # Initialize an empty dictionary for choices if it doesn't exist
+#             payload['Choices'] = {}
+#             payload['ChoiceOrder'] = []  # Initialize an empty list for choice order
+
+#             for idx, value in enumerate(values, start=1):
+#                 choice_key = str(idx)
+#                 payload['Choices'][choice_key] = {"Display": value}
+#                 payload['ChoiceOrder'].append(choice_key)  # Rebuild choice order based on current values
+
+#             # Update the next available choice ID, assuming choices are 1-indexed
+#             payload['NextChoiceId'] = len(values) + 1
+
+#     return template_data
+
+
+def update_values_question(template_data, input_data):
+    values = input_data[0]['values']
+    for element in template_data['SurveyElements']:
+        if element['Element'] == 'SQ' and element.get('Payload', {}).get('DataExportTag') == 'values_q':
+            payload = element['Payload']
+            # Initialize Choices and ChoiceOrder
+            payload['Choices'] = {}
+            payload['ChoiceOrder'] = []
+
+            # Initialize SliderStartPositions
+            payload['Configuration']['SliderStartPositions'] = {}
+
+            for idx, value in enumerate(values, start=1):
+                choice_key = str(idx)
+                payload['Choices'][choice_key] = {"Display": value}
+                payload['ChoiceOrder'].append(choice_key)
+                
+                # Set SliderStartPosition for each choice to 0.5
+                payload['Configuration']['SliderStartPositions'][choice_key] = 0.5
+
+            # Update NextChoiceId to reflect the next available choice ID
+            payload['NextChoiceId'] = len(values) + 1
+
+    return template_data
+
+
+
 
 def process_template(template_file: str, input_files: List[str], output_directory: str):
     for input_file in input_files:
@@ -118,6 +182,9 @@ def process_template(template_file: str, input_files: List[str], output_director
         updated_data_with_outcomes = update_looping_options(updated_data, input_data)
         updated_data_with_outcome_list = update_outcome_list_question(updated_data_with_outcomes, input_data)
         updated_data_with_name = update_survey_name(updated_data_with_outcome_list, input_file)
+        #newlyaddedpart
+        updated_data_with_values = update_values_question(updated_data_with_name, input_data)
+
         updated_data_consent = update_consent_question(updated_data_with_name)
         updated_data_specific = update_specific_question(updated_data_consent)
         final_updated_data = update_real_world_experience_question(updated_data_specific)

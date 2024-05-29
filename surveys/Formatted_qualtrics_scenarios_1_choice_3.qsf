@@ -8,14 +8,14 @@
         "DivisionID": null,
         "SurveyLanguage": "EN",
         "SurveyActiveResponseSet": "RS_bI0Alu22DaJZF5A",
-        "SurveyStatus": "Inactive",
+        "SurveyStatus": "Active",
         "SurveyStartDate": "0000-00-00 00:00:00",
         "SurveyExpirationDate": "0000-00-00 00:00:00",
         "SurveyCreationDate": "2024-04-22 19:16:12",
         "CreatorID": "UR_2ZPwzuRYfhqZWYR",
-        "LastModified": "2024-05-09 17:06:42",
+        "LastModified": "2024-05-17 23:13:19",
         "LastAccessed": "0000-00-00 00:00:00",
-        "LastActivated": "0000-00-00 00:00:00",
+        "LastActivated": "2024-05-15 15:54:21",
         "Deleted": null
     },
     "SurveyElements": [
@@ -49,6 +49,17 @@
                         {
                             "Type": "Question",
                             "QuestionID": "QID26"
+                        },
+                        {
+                            "Type": "Page Break"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID37"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID38"
                         },
                         {
                             "Type": "Page Break"
@@ -150,16 +161,16 @@
                                     "1": "My girlfriend might experience stress or anxiety over the possibility of the relationship ending."
                                 },
                                 "4": {
-                                    "1": "They may come up with a plan that supports her independence while gradually transitioning out of the relationship."
+                                    "1": "My girlfriend and I could decide to work on our relationship or to part ways amicably."
                                 },
                                 "5": {
-                                    "1": "My honesty may cause my girlfriend to feel betrayed or hurt if she was unaware of my feelings."
+                                    "1": "My girlfriend may appreciate the honesty, leading to a more open and truthful dialogue between us."
                                 },
                                 "6": {
-                                    "1": "The discussion could potentially strengthen our relationship if we decide to work through my concerns together."
+                                    "1": "The discussion could result in my girlfriend feeling insecure about her ability to make a life for herself independently in a new country."
                                 },
                                 "7": {
-                                    "1": "My girlfriend might feel insecure about her ability to make a life for herself in America without my support."
+                                    "1": "I may feel relieved for sharing my feelings and intentions, reducing my guilt over the situation."
                                 }
                             },
                             "Randomization": "All"
@@ -269,9 +280,10 @@
                         "Autofill": []
                     },
                     {
-                        "ID": "BL_bjUA0jMInlVmxN4",
                         "Type": "Standard",
-                        "FlowID": "FL_20"
+                        "ID": "BL_bjUA0jMInlVmxN4",
+                        "FlowID": "FL_20",
+                        "Autofill": []
                     },
                     {
                         "Type": "Standard",
@@ -287,6 +299,14 @@
                                 "Description": "SessionID",
                                 "Type": "Recipient",
                                 "Field": "SessionID",
+                                "VariableType": "String",
+                                "DataVisibility": [],
+                                "AnalyzeText": false
+                            },
+                            {
+                                "Description": "PROLIFIC_PID",
+                                "Type": "Recipient",
+                                "Field": "PROLIFIC_PID",
                                 "VariableType": "String",
                                 "DataVisibility": [],
                                 "AnalyzeText": false
@@ -433,7 +453,7 @@
             "SurveyID": "SV_6KETqTdatNVMQPc",
             "Element": "QC",
             "PrimaryAttribute": "Survey Question Count",
-            "SecondaryAttribute": "36",
+            "SecondaryAttribute": "38",
             "TertiaryAttribute": null,
             "Payload": null
         },
@@ -441,10 +461,10 @@
             "SurveyID": "SV_6KETqTdatNVMQPc",
             "Element": "SQ",
             "PrimaryAttribute": "QID26",
-            "SecondaryAttribute": "Are there any other sentient beings in the scenario that were not listed already? [optional]",
+            "SecondaryAttribute": "Are there any other sentient beings in the scenario that were not listed? [optional]",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Are there any other sentient beings in the scenario that were not listed already? <span style=\"color:#2c3e50;\">[optional]</span>",
+                "QuestionText": "Are there any other sentient beings in the scenario that were not listed? <span style=\"color:#2c3e50;\">[optional]</span>",
                 "DefaultChoices": false,
                 "DataExportTag": "other_entities",
                 "QuestionID": "QID26",
@@ -457,7 +477,7 @@
                 "Configuration": {
                     "QuestionDescriptionOption": "UseText"
                 },
-                "QuestionDescription": "Are there any other sentient beings in the scenario that were not listed already? [optional]",
+                "QuestionDescription": "Are there any other sentient beings in the scenario that were not listed? [optional]",
                 "Validation": {
                     "Settings": {
                         "ForceResponse": "OFF",
@@ -476,11 +496,134 @@
         {
             "SurveyID": "SV_6KETqTdatNVMQPc",
             "Element": "SQ",
+            "PrimaryAttribute": "QID38",
+            "SecondaryAttribute": "Are there any other virtues or anti-values that characterize this action?",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Are there any other virtues or anti-values that characterize this action?",
+                "DefaultChoices": false,
+                "DataExportTag": "Q20",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Are there any other virtues or anti-values that characterize this action?",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID38"
+            }
+        },
+        {
+            "SurveyID": "SV_6KETqTdatNVMQPc",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID37",
+            "SecondaryAttribute": "Below is the same scenario and action again.\u00a0 Scenario:SCENARIO_TEXT Action Choice: CHOICE_TEXT I..",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Below is the same scenario and action again.&nbsp;<br><br><b><i><u>\nScenario:</u><br></i>I (24M) have been with my girlfriend(29F) for a little over a year now, and we have been living together for the past ~6 months. She is originally from Taiwan, and is trying to make a life for herself here. I realized a long time ago that I didn't see a future with her. However, I have stayed with her because I just can't imagine breaking up with her, and her having to make a life for herself here with little to no help. I pay for our rent (I have a good job for a 24 y/o, so its not really a financial burden), take her to school, and do the majority of the cooking. I feel like she would have a hard time surviving in America without someone to help her out (mainly financially). Her English is extremely poor, so she has a lot of difficulty talking to people here. I feel really guilty about this situation, because I feel like I am wasting her time. I figured I could stay with her up until the point she can stand on her own two feet here and support herself. She is an extremely kind person, and I want the best for her. I want her to find someone who truly loves her and wants to build a future with her. </b><br><u><b><br><i>Action Choice:\n</i><br></b></u><b>I decide toask her how she would prefer we proceed<br></b><br><br>In your opinion, to what extent is this action characterized by the following values and anti-values?<br><br>",
+                "DefaultChoices": false,
+                "DataExportTag": "values_q",
+                "QuestionType": "Slider",
+                "Selector": "HSLIDER",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "CSSliderMin": 0,
+                    "CSSliderMax": 100,
+                    "GridLines": 10,
+                    "SnapToGrid": false,
+                    "NumDecimals": "0",
+                    "ShowValue": true,
+                    "CustomStart": true,
+                    "SliderStartPositions": {
+                        "1": 0.5,
+                        "2": 0.5,
+                        "3": 0.5,
+                        "4": 0.5,
+                        "5": 0.5
+                    },
+                    "NotApplicable": false,
+                    "MobileFirst": true
+                },
+                "QuestionDescription": "Below is the same scenario and action again.\u00a0 Scenario:SCENARIO_TEXT Action Choice: CHOICE_TEXT I...",
+                "Choices": {
+                    "1": {
+                        "Display": "respect"
+                    },
+                    "2": {
+                        "Display": "communication"
+                    },
+                    "3": {
+                        "Display": "empathy"
+                    },
+                    "4": {
+                        "Display": "consideration"
+                    },
+                    "5": {
+                        "Display": "collaboration"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ],
+                "Randomization": {
+                    "Advanced": null,
+                    "TotalRandSubset": "",
+                    "Type": "All"
+                },
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 6,
+                "NextAnswerId": 6,
+                "Labels": {
+                    "1": {
+                        "Display": "Does not characterize this action"
+                    },
+                    "5": {
+                        "Display": "Very much characterizes this action"
+                    }
+                },
+                "QuestionID": "QID37"
+            }
+        },
+        {
+            "SurveyID": "SV_6KETqTdatNVMQPc",
+            "Element": "SQ",
             "PrimaryAttribute": "QID24",
             "SecondaryAttribute": "Below is the scenario you will be asked to evaluate. Scenario: SCENARIO_TEXT Action Choice: CHOIC...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below is the scenario you will be asked to evaluate.<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">I (24M) have been with my girlfriend(29F) for a little over a year now, and we have been living together for the past ~6 months. She is originally from Taiwan, and is trying to make a life for herself here. I realized a long time ago that I didn't see a future with her. However, I have stayed with her because I just can't imagine breaking up with her, and her having to make a life for herself here with little to no help. I pay for our rent (I have a good job for a 24 y/o, so its not really a financial burden), take her to school, and do the majority of the cooking. I feel like she would have a hard time surviving in America without someone to help her out (mainly financially). Her English is extremely poor, so she has a lot of difficulty talking to people here. I feel really guilty about this situation, because I feel like I am wasting her time. I figured I could stay with her up until the point she can stand on her own two feet here and support herself. She is an extremely kind person, and I want the best for her. I want her to find someone who truly loves her and wants to build a future with her. </div></strong></em><br>\n<em><strong><u>Action Choice</u>: <div id=\"choice\">I ask her how she would prefer we proceed</div></strong></em>",
+                "QuestionText": "Below is the scenario you will be asked to evaluate.<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">I (24M) have been with my girlfriend(29F) for a little over a year now, and we have been living together for the past ~6 months. She is originally from Taiwan, and is trying to make a life for herself here. I realized a long time ago that I didn't see a future with her. However, I have stayed with her because I just can't imagine breaking up with her, and her having to make a life for herself here with little to no help. I pay for our rent (I have a good job for a 24 y/o, so its not really a financial burden), take her to school, and do the majority of the cooking. I feel like she would have a hard time surviving in America without someone to help her out (mainly financially). Her English is extremely poor, so she has a lot of difficulty talking to people here. I feel really guilty about this situation, because I feel like I am wasting her time. I figured I could stay with her up until the point she can stand on her own two feet here and support herself. She is an extremely kind person, and I want the best for her. I want her to find someone who truly loves her and wants to build a future with her. </div></strong></em><br>\n<em><strong><u>Action Choice</u>: <div id=\"choice\">I decide toask her how she would prefer we proceed</div></strong></em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -518,7 +661,7 @@
             "SecondaryAttribute": "Below you will see the scenario, action choice, and outcome: Scenario: SCENARIO_TEXT Action Choic...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome</span>:<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">I (24M) have been with my girlfriend(29F) for a little over a year now, and we have been living together for the past ~6 months. She is originally from Taiwan, and is trying to make a life for herself here. I realized a long time ago that I didn't see a future with her. However, I have stayed with her because I just can't imagine breaking up with her, and her having to make a life for herself here with little to no help. I pay for our rent (I have a good job for a 24 y/o, so its not really a financial burden), take her to school, and do the majority of the cooking. I feel like she would have a hard time surviving in America without someone to help her out (mainly financially). Her English is extremely poor, so she has a lot of difficulty talking to people here. I feel really guilty about this situation, because I feel like I am wasting her time. I figured I could stay with her up until the point she can stand on her own two feet here and support herself. She is an extremely kind person, and I want the best for her. I want her to find someone who truly loves her and wants to build a future with her. </div><div id=\"scenario\"><br></div><div id=\"scenario\"><u>\nAction Choice</u>:</div><div id=\"scenario\">I ask her how she would prefer we proceed<br></div><br>\n<span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
+                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome</span>:<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">I (24M) have been with my girlfriend(29F) for a little over a year now, and we have been living together for the past ~6 months. She is originally from Taiwan, and is trying to make a life for herself here. I realized a long time ago that I didn't see a future with her. However, I have stayed with her because I just can't imagine breaking up with her, and her having to make a life for herself here with little to no help. I pay for our rent (I have a good job for a 24 y/o, so its not really a financial burden), take her to school, and do the majority of the cooking. I feel like she would have a hard time surviving in America without someone to help her out (mainly financially). Her English is extremely poor, so she has a lot of difficulty talking to people here. I feel really guilty about this situation, because I feel like I am wasting her time. I figured I could stay with her up until the point she can stand on her own two feet here and support herself. She is an extremely kind person, and I want the best for her. I want her to find someone who truly loves her and wants to build a future with her. </div><div id=\"scenario\"><br></div><div id=\"scenario\"><u>\nAction Choice</u>:</div><div id=\"scenario\">I decide toask her how she would prefer we proceed<br></div><br>\n<span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -770,13 +913,13 @@
                 "NextAnswerId": 5,
                 "Labels": {
                     "1": {
-                        "Display": "Absolutely bad for them"
+                        "Display": "Very bad for them"
                     },
                     "2": {
                         "Display": "Neutral / no impact"
                     },
                     "3": {
-                        "Display": "Absolutely good for them"
+                        "Display": "Very good for them"
                     }
                 },
                 "Randomization": {
@@ -1115,10 +1258,10 @@
             "SurveyID": "SV_6KETqTdatNVMQPc",
             "Element": "SQ",
             "PrimaryAttribute": "QID35",
-            "SecondaryAttribute": "Thank you for completing the survey. \u200b\u200b\u200b\u200b\u200b\u200b\u200bPlease enter this completion code into Pro",
+            "SecondaryAttribute": "Thank you for completing the survey. Please enter this completion code into Prolific:\u00a0 CUUT28RO \u00a0",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Thank you for completing the survey. \u200b\u200b\u200b\u200b\u200b\u200b\u200bPlease enter this completion code into Prolific: ${e://Field/SessionID}<br><br><br>",
+                "QuestionText": "Thank you for completing the survey. Please enter this completion code into Prolific:&nbsp;\n<br><br><div style=\"text-align: center;\"><b>CUUT28RO</b></div>\n<br>\n&nbsp;",
                 "DefaultChoices": false,
                 "DataExportTag": "Q17",
                 "QuestionType": "DB",
@@ -1130,7 +1273,7 @@
                 "Configuration": {
                     "QuestionDescriptionOption": "UseText"
                 },
-                "QuestionDescription": "Thank you for completing the survey. \u200b\u200b\u200b\u200b\u200b\u200b\u200bPlease enter this completion code into Prolific: ...",
+                "QuestionDescription": "Thank you for completing the survey. Please enter this completion code into Prolific:\u00a0 CUUT28RO \u00a0",
                 "ChoiceOrder": [],
                 "Validation": {
                     "Settings": {
@@ -1184,7 +1327,7 @@
             "SecondaryAttribute": "You have considered the following action: CHOICE_TEXT And these possible outcomes: OUTCOME_LIST A...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "You have considered the following action:<br><br>I ask her how she would prefer we proceed<br><br>And these possible outcomes:<br><br><ul><li>My girlfriend may feel valued and respected because I am considering her preferences in the decision-making process.</li><li>The conversation may lead to a mutual understanding of their relationship's future.</li><li>My girlfriend might experience stress or anxiety over the possibility of the relationship ending.</li><li>They may come up with a plan that supports her independence while gradually transitioning out of the relationship.</li><li>My honesty may cause my girlfriend to feel betrayed or hurt if she was unaware of my feelings.</li><li>The discussion could potentially strengthen our relationship if we decide to work through my concerns together.</li><li>My girlfriend might feel insecure about her ability to make a life for herself in America without my support.</li></ul><br><br>Are there other likely outcomes of the action that were not listed? If so, please enter them below.&nbsp;",
+                "QuestionText": "You have considered the following action:<br><br>I decide toask her how she would prefer we proceed<br><br>And these possible outcomes:<br><br><ul><li>My girlfriend may feel valued and respected because I am considering her preferences in the decision-making process.</li><li>The conversation may lead to a mutual understanding of their relationship's future.</li><li>My girlfriend might experience stress or anxiety over the possibility of the relationship ending.</li><li>My girlfriend and I could decide to work on our relationship or to part ways amicably.</li><li>My girlfriend may appreciate the honesty, leading to a more open and truthful dialogue between us.</li><li>The discussion could result in my girlfriend feeling insecure about her ability to make a life for herself independently in a new country.</li><li>I may feel relieved for sharing my feelings and intentions, reducing my guilt over the situation.</li></ul><br><br>Are there other likely outcomes of the action that were not listed? If so, please enter them below.&nbsp;",
                 "DefaultChoices": false,
                 "DataExportTag": "Q18",
                 "QuestionType": "TE",

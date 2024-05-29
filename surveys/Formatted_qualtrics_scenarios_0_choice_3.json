@@ -1,21 +1,21 @@
 {
     "SurveyEntry": {
         "SurveyID": "SV_6KETqTdatNVMQPc",
-        "SurveyName": "Annotation Validation Study [qualtrics_scenarios_6_choice_2]",
+        "SurveyName": "Annotation Validation Study [qualtrics_scenarios_0_choice_3]",
         "SurveyDescription": null,
         "SurveyOwnerID": "UR_2ZPwzuRYfhqZWYR",
         "SurveyBrandID": "qualtricsxmhxsm8yb3m",
         "DivisionID": null,
         "SurveyLanguage": "EN",
         "SurveyActiveResponseSet": "RS_bI0Alu22DaJZF5A",
-        "SurveyStatus": "Inactive",
+        "SurveyStatus": "Active",
         "SurveyStartDate": "0000-00-00 00:00:00",
         "SurveyExpirationDate": "0000-00-00 00:00:00",
         "SurveyCreationDate": "2024-04-22 19:16:12",
         "CreatorID": "UR_2ZPwzuRYfhqZWYR",
-        "LastModified": "2024-05-09 17:06:42",
+        "LastModified": "2024-05-17 23:13:19",
         "LastAccessed": "0000-00-00 00:00:00",
-        "LastActivated": "0000-00-00 00:00:00",
+        "LastActivated": "2024-05-15 15:54:21",
         "Deleted": null
     },
     "SurveyElements": [
@@ -49,6 +49,17 @@
                         {
                             "Type": "Question",
                             "QuestionID": "QID26"
+                        },
+                        {
+                            "Type": "Page Break"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID37"
+                        },
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID38"
                         },
                         {
                             "Type": "Page Break"
@@ -141,25 +152,25 @@
                         "LoopingOptions": {
                             "Static": {
                                 "1": {
-                                    "1": "I continue to harbor unexpressed romantic feelings."
+                                    "1": "My sister may feel confronted or defensive about the demand to give up the dog."
                                 },
                                 "2": {
-                                    "1": "I experience emotional discomfort or distress due to unrequited feelings."
+                                    "1": "My mother and younger sister might feel relieved or supported by my decision to address the issue."
                                 },
                                 "3": {
-                                    "1": "The friendship between me and the girl remains unchanged on the surface."
+                                    "1": "The dog might be given up for adoption and potentially find a more suitable and caring home."
                                 },
                                 "4": {
-                                    "1": "I may struggle with feelings of resentment or sadness over time."
+                                    "1": "My relationship with my older sister could become more strained due to the demand."
                                 },
                                 "5": {
-                                    "1": "The girl remains unaware of my true feelings, potentially leading to misunderstandings."
+                                    "1": "The family dynamic might experience tension as the discussion about the dog's future unfolds."
                                 },
                                 "6": {
-                                    "1": "I might miss the opportunity to potentially deepen the relationship, despite the risk involved."
+                                    "1": "If the dog is adopted by a new owner, the living conditions in my home may improve."
                                 },
                                 "7": {
-                                    "1": "The dynamic of the friendship could become strained if my feelings intensify or become harder to hide."
+                                    "1": "I might feel a sense of relief or guilt, depending on the outcome of the situation."
                                 }
                             },
                             "Randomization": "All"
@@ -269,9 +280,10 @@
                         "Autofill": []
                     },
                     {
-                        "ID": "BL_bjUA0jMInlVmxN4",
                         "Type": "Standard",
-                        "FlowID": "FL_20"
+                        "ID": "BL_bjUA0jMInlVmxN4",
+                        "FlowID": "FL_20",
+                        "Autofill": []
                     },
                     {
                         "Type": "Standard",
@@ -287,6 +299,14 @@
                                 "Description": "SessionID",
                                 "Type": "Recipient",
                                 "Field": "SessionID",
+                                "VariableType": "String",
+                                "DataVisibility": [],
+                                "AnalyzeText": false
+                            },
+                            {
+                                "Description": "PROLIFIC_PID",
+                                "Type": "Recipient",
+                                "Field": "PROLIFIC_PID",
                                 "VariableType": "String",
                                 "DataVisibility": [],
                                 "AnalyzeText": false
@@ -433,7 +453,7 @@
             "SurveyID": "SV_6KETqTdatNVMQPc",
             "Element": "QC",
             "PrimaryAttribute": "Survey Question Count",
-            "SecondaryAttribute": "36",
+            "SecondaryAttribute": "38",
             "TertiaryAttribute": null,
             "Payload": null
         },
@@ -441,10 +461,10 @@
             "SurveyID": "SV_6KETqTdatNVMQPc",
             "Element": "SQ",
             "PrimaryAttribute": "QID26",
-            "SecondaryAttribute": "Are there any other sentient beings in the scenario that were not listed already? [optional]",
+            "SecondaryAttribute": "Are there any other sentient beings in the scenario that were not listed? [optional]",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Are there any other sentient beings in the scenario that were not listed already? <span style=\"color:#2c3e50;\">[optional]</span>",
+                "QuestionText": "Are there any other sentient beings in the scenario that were not listed? <span style=\"color:#2c3e50;\">[optional]</span>",
                 "DefaultChoices": false,
                 "DataExportTag": "other_entities",
                 "QuestionID": "QID26",
@@ -457,7 +477,7 @@
                 "Configuration": {
                     "QuestionDescriptionOption": "UseText"
                 },
-                "QuestionDescription": "Are there any other sentient beings in the scenario that were not listed already? [optional]",
+                "QuestionDescription": "Are there any other sentient beings in the scenario that were not listed? [optional]",
                 "Validation": {
                     "Settings": {
                         "ForceResponse": "OFF",
@@ -476,11 +496,164 @@
         {
             "SurveyID": "SV_6KETqTdatNVMQPc",
             "Element": "SQ",
+            "PrimaryAttribute": "QID38",
+            "SecondaryAttribute": "Are there any other virtues or anti-values that characterize this action?",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Are there any other virtues or anti-values that characterize this action?",
+                "DefaultChoices": false,
+                "DataExportTag": "Q20",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Are there any other virtues or anti-values that characterize this action?",
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": {
+                    "AllowFreeResponse": "false"
+                },
+                "QuestionID": "QID38"
+            }
+        },
+        {
+            "SurveyID": "SV_6KETqTdatNVMQPc",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID37",
+            "SecondaryAttribute": "Below is the same scenario and action again.\u00a0 Scenario:SCENARIO_TEXT Action Choice: CHOICE_TEXT I..",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Below is the same scenario and action again.&nbsp;<br><br><b><i><u>\nScenario:</u><br></i>My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before my sister got it as i knew my sister wasn't ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I'm baffled as to why my sister cant train it or take care of it. I don't think my sister is fit to have this dog and I think the dog would have a better life in another home, I just can't bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.</b><br><u><b><br><i>Action Choice:\n</i><br></b></u><b>I decide todemand that my sister gives the dog up for adoption to a better home.<br></b><br><br>In your opinion, to what extent is this action characterized by the following values and anti-values?<br><br>",
+                "DefaultChoices": false,
+                "DataExportTag": "values_q",
+                "QuestionType": "Slider",
+                "Selector": "HSLIDER",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "CSSliderMin": 0,
+                    "CSSliderMax": 100,
+                    "GridLines": 10,
+                    "SnapToGrid": false,
+                    "NumDecimals": "0",
+                    "ShowValue": true,
+                    "CustomStart": true,
+                    "SliderStartPositions": {
+                        "1": 0.5,
+                        "2": 0.5,
+                        "3": 0.5,
+                        "4": 0.5,
+                        "5": 0.5,
+                        "6": 0.5,
+                        "7": 0.5,
+                        "8": 0.5,
+                        "9": 0.5,
+                        "10": 0.5,
+                        "11": 0.5
+                    },
+                    "NotApplicable": false,
+                    "MobileFirst": true
+                },
+                "QuestionDescription": "Below is the same scenario and action again.\u00a0 Scenario:SCENARIO_TEXT Action Choice: CHOICE_TEXT I...",
+                "Choices": {
+                    "1": {
+                        "Display": "responsibility"
+                    },
+                    "2": {
+                        "Display": "compassion"
+                    },
+                    "3": {
+                        "Display": "justice"
+                    },
+                    "4": {
+                        "Display": "animal welfare"
+                    },
+                    "5": {
+                        "Display": "family harmony"
+                    },
+                    "6": {
+                        "Display": "assertiveness"
+                    },
+                    "7": {
+                        "Display": "lack of empathy"
+                    },
+                    "8": {
+                        "Display": "control"
+                    },
+                    "9": {
+                        "Display": "disregard for family bonds"
+                    },
+                    "10": {
+                        "Display": "selfishness"
+                    },
+                    "11": {
+                        "Display": "inflexibility"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11"
+                ],
+                "Randomization": {
+                    "Advanced": null,
+                    "TotalRandSubset": "",
+                    "Type": "All"
+                },
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 12,
+                "NextAnswerId": 6,
+                "Labels": {
+                    "1": {
+                        "Display": "Does not characterize this action"
+                    },
+                    "5": {
+                        "Display": "Very much characterizes this action"
+                    }
+                },
+                "QuestionID": "QID37"
+            }
+        },
+        {
+            "SurveyID": "SV_6KETqTdatNVMQPc",
+            "Element": "SQ",
             "PrimaryAttribute": "QID24",
             "SecondaryAttribute": "Below is the scenario you will be asked to evaluate. Scenario: SCENARIO_TEXT Action Choice: CHOIC...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below is the scenario you will be asked to evaluate.<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">I met a girl on Tinder a couples of months ago, and after a while we had a date. We had a lot of fun and we connected instantly, but she wasn't interested in anything romantic. No big deal, we kept it to friendship (with sometimes things getting a little more physical, but rarely). We've gotten really close since, we text everyday, we see each other as much as possible, we've talked about a lot of really personal stuff. I thought I did a good job of moving on, that I wasn't interested in her that way anymore. Then, a couple of days ago I spent the night at her place. We drank a lot and it was getting late, so she offered me to stay to sleep, it's closer to my job anyway. We didn't have sex or anything, but we cuddled a lot, even though she's usually not a cuddler. The day after I had a hard time leaving, I've never felt so good in my life. That's when I realised that I was lying to myself, my feelings for her are clearly more than just friendship. But if I tell her how I feel, it might hurt the friendship. She has said that she feared to hurt me, she doesn't want me to feel bad because it's not gonna go further than that, so I kinda feel like an asshole for putting her in that situation.</div></strong></em><br>\n<em><strong><u>Action Choice</u>: <div id=\"choice\">I not say anything and potentially hurt our friendship</div></strong></em>",
+                "QuestionText": "Below is the scenario you will be asked to evaluate.<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before my sister got it as i knew my sister wasn't ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I'm baffled as to why my sister cant train it or take care of it. I don't think my sister is fit to have this dog and I think the dog would have a better life in another home, I just can't bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.</div></strong></em><br>\n<em><strong><u>Action Choice</u>: <div id=\"choice\">I decide todemand that my sister gives the dog up for adoption to a better home.</div></strong></em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -518,7 +691,7 @@
             "SecondaryAttribute": "Below you will see the scenario, action choice, and outcome: Scenario: SCENARIO_TEXT Action Choic...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome</span>:<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">I met a girl on Tinder a couples of months ago, and after a while we had a date. We had a lot of fun and we connected instantly, but she wasn't interested in anything romantic. No big deal, we kept it to friendship (with sometimes things getting a little more physical, but rarely). We've gotten really close since, we text everyday, we see each other as much as possible, we've talked about a lot of really personal stuff. I thought I did a good job of moving on, that I wasn't interested in her that way anymore. Then, a couple of days ago I spent the night at her place. We drank a lot and it was getting late, so she offered me to stay to sleep, it's closer to my job anyway. We didn't have sex or anything, but we cuddled a lot, even though she's usually not a cuddler. The day after I had a hard time leaving, I've never felt so good in my life. That's when I realised that I was lying to myself, my feelings for her are clearly more than just friendship. But if I tell her how I feel, it might hurt the friendship. She has said that she feared to hurt me, she doesn't want me to feel bad because it's not gonna go further than that, so I kinda feel like an asshole for putting her in that situation.</div><div id=\"scenario\"><br></div><div id=\"scenario\"><u>\nAction Choice</u>:</div><div id=\"scenario\">I not say anything and potentially hurt our friendship<br></div><br>\n<span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
+                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome</span>:<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before my sister got it as i knew my sister wasn't ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I'm baffled as to why my sister cant train it or take care of it. I don't think my sister is fit to have this dog and I think the dog would have a better life in another home, I just can't bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.</div><div id=\"scenario\"><br></div><div id=\"scenario\"><u>\nAction Choice</u>:</div><div id=\"scenario\">I decide todemand that my sister gives the dog up for adoption to a better home.<br></div><br>\n<span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -574,7 +747,16 @@
                         "Display": "I"
                     },
                     "2": {
-                        "Display": "girl"
+                        "Display": "older sister"
+                    },
+                    "3": {
+                        "Display": "mother"
+                    },
+                    "4": {
+                        "Display": "younger sister"
+                    },
+                    "5": {
+                        "Display": "dog"
                     }
                 },
                 "ChoiceOrder": [
@@ -623,7 +805,16 @@
                         "Display": "I"
                     },
                     "2": {
-                        "Display": "girl"
+                        "Display": "older sister"
+                    },
+                    "3": {
+                        "Display": "mother"
+                    },
+                    "4": {
+                        "Display": "younger sister"
+                    },
+                    "5": {
+                        "Display": "dog"
                     }
                 },
                 "ChoiceOrder": [
@@ -746,7 +937,16 @@
                         "Display": "I"
                     },
                     "2": {
-                        "Display": "girl"
+                        "Display": "older sister"
+                    },
+                    "3": {
+                        "Display": "mother"
+                    },
+                    "4": {
+                        "Display": "younger sister"
+                    },
+                    "5": {
+                        "Display": "dog"
                     }
                 },
                 "ChoiceOrder": [
@@ -770,13 +970,13 @@
                 "NextAnswerId": 5,
                 "Labels": {
                     "1": {
-                        "Display": "Absolutely bad for them"
+                        "Display": "Very bad for them"
                     },
                     "2": {
                         "Display": "Neutral / no impact"
                     },
                     "3": {
-                        "Display": "Absolutely good for them"
+                        "Display": "Very good for them"
                     }
                 },
                 "Randomization": {
@@ -816,7 +1016,16 @@
                         "Display": "I"
                     },
                     "2": {
-                        "Display": "girl"
+                        "Display": "older sister"
+                    },
+                    "3": {
+                        "Display": "mother"
+                    },
+                    "4": {
+                        "Display": "younger sister"
+                    },
+                    "5": {
+                        "Display": "dog"
                     }
                 },
                 "ChoiceOrder": [
@@ -1073,12 +1282,21 @@
                         "Display": "I"
                     },
                     "2": {
-                        "Display": "girl"
+                        "Display": "older sister"
                     },
                     "3": {
-                        "Display": "an old man with a long white beard"
+                        "Display": "mother"
                     },
                     "4": {
+                        "Display": "younger sister"
+                    },
+                    "5": {
+                        "Display": "dog"
+                    },
+                    "6": {
+                        "Display": "an old man with a long white beard"
+                    },
+                    "7": {
                         "Display": "a mouse"
                     }
                 },
@@ -1115,10 +1333,10 @@
             "SurveyID": "SV_6KETqTdatNVMQPc",
             "Element": "SQ",
             "PrimaryAttribute": "QID35",
-            "SecondaryAttribute": "Thank you for completing the survey. \u200b\u200b\u200b\u200b\u200b\u200b\u200bPlease enter this completion code into Pro",
+            "SecondaryAttribute": "Thank you for completing the survey. Please enter this completion code into Prolific:\u00a0 CUUT28RO \u00a0",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Thank you for completing the survey. \u200b\u200b\u200b\u200b\u200b\u200b\u200bPlease enter this completion code into Prolific: ${e://Field/SessionID}<br><br><br>",
+                "QuestionText": "Thank you for completing the survey. Please enter this completion code into Prolific:&nbsp;\n<br><br><div style=\"text-align: center;\"><b>CUUT28RO</b></div>\n<br>\n&nbsp;",
                 "DefaultChoices": false,
                 "DataExportTag": "Q17",
                 "QuestionType": "DB",
@@ -1130,7 +1348,7 @@
                 "Configuration": {
                     "QuestionDescriptionOption": "UseText"
                 },
-                "QuestionDescription": "Thank you for completing the survey. \u200b\u200b\u200b\u200b\u200b\u200b\u200bPlease enter this completion code into Prolific: ...",
+                "QuestionDescription": "Thank you for completing the survey. Please enter this completion code into Prolific:\u00a0 CUUT28RO \u00a0",
                 "ChoiceOrder": [],
                 "Validation": {
                     "Settings": {
@@ -1184,7 +1402,7 @@
             "SecondaryAttribute": "You have considered the following action: CHOICE_TEXT And these possible outcomes: OUTCOME_LIST A...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "You have considered the following action:<br><br>I not say anything and potentially hurt our friendship<br><br>And these possible outcomes:<br><br><ul><li>I continue to harbor unexpressed romantic feelings.</li><li>I experience emotional discomfort or distress due to unrequited feelings.</li><li>The friendship between me and the girl remains unchanged on the surface.</li><li>I may struggle with feelings of resentment or sadness over time.</li><li>The girl remains unaware of my true feelings, potentially leading to misunderstandings.</li><li>I might miss the opportunity to potentially deepen the relationship, despite the risk involved.</li><li>The dynamic of the friendship could become strained if my feelings intensify or become harder to hide.</li></ul><br><br>Are there other likely outcomes of the action that were not listed? If so, please enter them below.&nbsp;",
+                "QuestionText": "You have considered the following action:<br><br>I decide todemand that my sister gives the dog up for adoption to a better home.<br><br>And these possible outcomes:<br><br><ul><li>My sister may feel confronted or defensive about the demand to give up the dog.</li><li>My mother and younger sister might feel relieved or supported by my decision to address the issue.</li><li>The dog might be given up for adoption and potentially find a more suitable and caring home.</li><li>My relationship with my older sister could become more strained due to the demand.</li><li>The family dynamic might experience tension as the discussion about the dog's future unfolds.</li><li>If the dog is adopted by a new owner, the living conditions in my home may improve.</li><li>I might feel a sense of relief or guilt, depending on the outcome of the situation.</li></ul><br><br>Are there other likely outcomes of the action that were not listed? If so, please enter them below.&nbsp;",
                 "DefaultChoices": false,
                 "DataExportTag": "Q18",
                 "QuestionType": "TE",
