@@ -1,7 +1,7 @@
 {
     "SurveyEntry": {
         "SurveyID": "SV_6KETqTdatNVMQPc",
-        "SurveyName": "Annotation Validation Study [qualtrics_scenarios_0_choice_1]",
+        "SurveyName": "Annotation Validation Study [qualtrics_scenarios_1_choice_3]",
         "SurveyDescription": null,
         "SurveyOwnerID": "UR_2ZPwzuRYfhqZWYR",
         "SurveyBrandID": "qualtricsxmhxsm8yb3m",
@@ -152,22 +152,25 @@
                         "LoopingOptions": {
                             "Static": {
                                 "1": {
-                                    "1": "My refusal to help may increase the burden on my mother and younger sister."
+                                    "1": "My girlfriend may feel valued and respected because I am considering her preferences in the decision-making process."
                                 },
                                 "2": {
-                                    "1": "The dog's care and living conditions may not improve, continuing the cycle of neglect."
+                                    "1": "The conversation may lead to a mutual understanding of their relationship's future."
                                 },
                                 "3": {
-                                    "1": "My relationship with my older sister may become more strained due to my stance."
+                                    "1": "My girlfriend might experience stress or anxiety over the possibility of the relationship ending."
                                 },
                                 "4": {
-                                    "1": "My mother and younger sister may experience increased stress and frustration."
+                                    "1": "My girlfriend and I could decide to work on our relationship or to part ways amicably."
                                 },
                                 "5": {
-                                    "1": "The dog may continue to suffer from a lack of proper training, attention, and care."
+                                    "1": "My girlfriend may appreciate the honesty, leading to a more open and truthful dialogue between us."
                                 },
                                 "6": {
-                                    "1": "The living conditions in the apartment may deteriorate further without my assistance."
+                                    "1": "The discussion could result in my girlfriend feeling insecure about her ability to make a life for herself independently in a new country."
+                                },
+                                "7": {
+                                    "1": "I may feel relieved for sharing my feelings and intentions, reducing my guilt over the situation."
                                 }
                             },
                             "Randomization": "All"
@@ -533,7 +536,7 @@
             "SecondaryAttribute": "Below is the same scenario and action again.\u00a0 Scenario:SCENARIO_TEXT Action Choice: CHOICE_TEXT I..",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below is the same scenario and action again.&nbsp;<br><br><b><i><u>\nScenario:</u><br></i>My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before my sister got it as i knew my sister wasn't ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I'm baffled as to why my sister cant train it or take care of it. I don't think my sister is fit to have this dog and I think the dog would have a better life in another home, I just can't bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.</b><br><u><b><br><i>Action Choice:\n</i><br></b></u><b>I decide torefuse to take care of the dog unless my sister steps up and takes responsibility.<br></b><br><br>In your opinion, to what extent is this action characterized by the following values and anti-values?<br><br>",
+                "QuestionText": "Below is the same scenario and action again.&nbsp;<br><br><b><i><u>\nScenario:</u><br></i>I (24M) have been with my girlfriend(29F) for a little over a year now, and we have been living together for the past ~6 months. She is originally from Taiwan, and is trying to make a life for herself here. I realized a long time ago that I didn't see a future with her. However, I have stayed with her because I just can't imagine breaking up with her, and her having to make a life for herself here with little to no help. I pay for our rent (I have a good job for a 24 y/o, so its not really a financial burden), take her to school, and do the majority of the cooking. I feel like she would have a hard time surviving in America without someone to help her out (mainly financially). Her English is extremely poor, so she has a lot of difficulty talking to people here. I feel really guilty about this situation, because I feel like I am wasting her time. I figured I could stay with her up until the point she can stand on her own two feet here and support herself. She is an extremely kind person, and I want the best for her. I want her to find someone who truly loves her and wants to build a future with her. </b><br><u><b><br><i>Action Choice:\n</i><br></b></u><b>I decide to ask her how she would prefer we proceed<br></b><br><br>In your opinion, to what extent is this action characterized by the following values and anti-values?<br><br>",
                 "DefaultChoices": false,
                 "DataExportTag": "values_q",
                 "QuestionType": "Slider",
@@ -556,13 +559,7 @@
                         "2": 0.5,
                         "3": 0.5,
                         "4": 0.5,
-                        "5": 0.5,
-                        "6": 0.5,
-                        "7": 0.5,
-                        "8": 0.5,
-                        "9": 0.5,
-                        "10": 0.5,
-                        "11": 0.5
+                        "5": 0.5
                     },
                     "NotApplicable": false,
                     "MobileFirst": true
@@ -570,37 +567,19 @@
                 "QuestionDescription": "Below is the same scenario and action again.\u00a0 Scenario:SCENARIO_TEXT Action Choice: CHOICE_TEXT I...",
                 "Choices": {
                     "1": {
-                        "Display": "responsibility"
+                        "Display": "respect"
                     },
                     "2": {
-                        "Display": "fairness"
+                        "Display": "communication"
                     },
                     "3": {
-                        "Display": "autonomy"
+                        "Display": "empathy"
                     },
                     "4": {
-                        "Display": "accountability"
+                        "Display": "consideration"
                     },
                     "5": {
-                        "Display": "boundaries"
-                    },
-                    "6": {
-                        "Display": "cooperation"
-                    },
-                    "7": {
-                        "Display": "family harmony"
-                    },
-                    "8": {
-                        "Display": "irresponsibility"
-                    },
-                    "9": {
-                        "Display": "lack of compassion"
-                    },
-                    "10": {
-                        "Display": "selfishness"
-                    },
-                    "11": {
-                        "Display": "neglect"
+                        "Display": "collaboration"
                     }
                 },
                 "ChoiceOrder": [
@@ -608,13 +587,7 @@
                     "2",
                     "3",
                     "4",
-                    "5",
-                    "6",
-                    "7",
-                    "8",
-                    "9",
-                    "10",
-                    "11"
+                    "5"
                 ],
                 "Randomization": {
                     "Advanced": null,
@@ -630,7 +603,7 @@
                 },
                 "GradingData": [],
                 "Language": [],
-                "NextChoiceId": 12,
+                "NextChoiceId": 6,
                 "NextAnswerId": 6,
                 "Labels": {
                     "1": {
@@ -650,7 +623,7 @@
             "SecondaryAttribute": "Below is the scenario you will be asked to evaluate. Scenario: SCENARIO_TEXT Action Choice: CHOIC...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below is the scenario you will be asked to evaluate.<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before my sister got it as i knew my sister wasn't ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I'm baffled as to why my sister cant train it or take care of it. I don't think my sister is fit to have this dog and I think the dog would have a better life in another home, I just can't bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.</div></strong></em><br>\n<em><strong><u>Action Choice</u>: <div id=\"choice\">I decide torefuse to take care of the dog unless my sister steps up and takes responsibility.</div></strong></em>",
+                "QuestionText": "Below is the scenario you will be asked to evaluate.<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">I (24M) have been with my girlfriend(29F) for a little over a year now, and we have been living together for the past ~6 months. She is originally from Taiwan, and is trying to make a life for herself here. I realized a long time ago that I didn't see a future with her. However, I have stayed with her because I just can't imagine breaking up with her, and her having to make a life for herself here with little to no help. I pay for our rent (I have a good job for a 24 y/o, so its not really a financial burden), take her to school, and do the majority of the cooking. I feel like she would have a hard time surviving in America without someone to help her out (mainly financially). Her English is extremely poor, so she has a lot of difficulty talking to people here. I feel really guilty about this situation, because I feel like I am wasting her time. I figured I could stay with her up until the point she can stand on her own two feet here and support herself. She is an extremely kind person, and I want the best for her. I want her to find someone who truly loves her and wants to build a future with her. </div></strong></em><br>\n<em><strong><u>Action Choice</u>: <div id=\"choice\">I decide to ask her how she would prefer we proceed</div></strong></em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -688,7 +661,7 @@
             "SecondaryAttribute": "Below you will see the scenario, action choice, and outcome: Scenario: SCENARIO_TEXT Action Choic...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome</span>:<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">My older sister (23) has a dog and forces almost every responsibility on my mother and younger sister(13). I refuse to do anything to help with the dog as me and my older sister got in a big argument before my sister got it as i knew my sister wasn't ready to take care of a dog. But sometimes I do cave in and help out as I feel bad for the dog. The dog is untrained as after many years and daily will pee on the floors and poops inside the home, we live in a small apartment and its really awful. My older sister these past few months lives with her BF and only returns like a day or two each week. Thus leaving everything to my sister and mother. I think its really unfair for her to just abandon the dog, my mother is always complaining about it to get me or my little sister to clean after it, everyday I have to dodge stepping in piss. Also, smelling piss and seeing shit on the floor everyday is not fun. I really dislike having to see this dog being left like this, nobody really plays with it and barely takes it out for walks and it breaks my heart. She has been jobless for over a year now and I'm baffled as to why my sister cant train it or take care of it. I don't think my sister is fit to have this dog and I think the dog would have a better life in another home, I just can't bare watching nobody care for it anymore and waking up and coming home to warm piss and shit.</div><div id=\"scenario\"><br></div><div id=\"scenario\"><u>\nAction Choice</u>:</div><div id=\"scenario\">I decide torefuse to take care of the dog unless my sister steps up and takes responsibility.<br></div><br>\n<span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
+                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome</span>:<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">I (24M) have been with my girlfriend(29F) for a little over a year now, and we have been living together for the past ~6 months. She is originally from Taiwan, and is trying to make a life for herself here. I realized a long time ago that I didn't see a future with her. However, I have stayed with her because I just can't imagine breaking up with her, and her having to make a life for herself here with little to no help. I pay for our rent (I have a good job for a 24 y/o, so its not really a financial burden), take her to school, and do the majority of the cooking. I feel like she would have a hard time surviving in America without someone to help her out (mainly financially). Her English is extremely poor, so she has a lot of difficulty talking to people here. I feel really guilty about this situation, because I feel like I am wasting her time. I figured I could stay with her up until the point she can stand on her own two feet here and support herself. She is an extremely kind person, and I want the best for her. I want her to find someone who truly loves her and wants to build a future with her. </div><div id=\"scenario\"><br></div><div id=\"scenario\"><u>\nAction Choice</u>:</div><div id=\"scenario\">I decide to ask her how she would prefer we proceed<br></div><br>\n<span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -744,16 +717,7 @@
                         "Display": "I"
                     },
                     "2": {
-                        "Display": "older sister"
-                    },
-                    "3": {
-                        "Display": "mother"
-                    },
-                    "4": {
-                        "Display": "younger sister"
-                    },
-                    "5": {
-                        "Display": "dog"
+                        "Display": "girlfriend"
                     }
                 },
                 "ChoiceOrder": [
@@ -802,16 +766,7 @@
                         "Display": "I"
                     },
                     "2": {
-                        "Display": "older sister"
-                    },
-                    "3": {
-                        "Display": "mother"
-                    },
-                    "4": {
-                        "Display": "younger sister"
-                    },
-                    "5": {
-                        "Display": "dog"
+                        "Display": "girlfriend"
                     }
                 },
                 "ChoiceOrder": [
@@ -934,16 +889,7 @@
                         "Display": "I"
                     },
                     "2": {
-                        "Display": "older sister"
-                    },
-                    "3": {
-                        "Display": "mother"
-                    },
-                    "4": {
-                        "Display": "younger sister"
-                    },
-                    "5": {
-                        "Display": "dog"
+                        "Display": "girlfriend"
                     }
                 },
                 "ChoiceOrder": [
@@ -1013,16 +959,7 @@
                         "Display": "I"
                     },
                     "2": {
-                        "Display": "older sister"
-                    },
-                    "3": {
-                        "Display": "mother"
-                    },
-                    "4": {
-                        "Display": "younger sister"
-                    },
-                    "5": {
-                        "Display": "dog"
+                        "Display": "girlfriend"
                     }
                 },
                 "ChoiceOrder": [
@@ -1279,21 +1216,12 @@
                         "Display": "I"
                     },
                     "2": {
-                        "Display": "older sister"
+                        "Display": "girlfriend"
                     },
                     "3": {
-                        "Display": "mother"
-                    },
-                    "4": {
-                        "Display": "younger sister"
-                    },
-                    "5": {
-                        "Display": "dog"
-                    },
-                    "6": {
                         "Display": "an old man with a long white beard"
                     },
-                    "7": {
+                    "4": {
                         "Display": "a mouse"
                     }
                 },
@@ -1399,7 +1327,7 @@
             "SecondaryAttribute": "You have considered the following action: CHOICE_TEXT And these possible outcomes: OUTCOME_LIST A...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "You have considered the following action:<br><br>I decide torefuse to take care of the dog unless my sister steps up and takes responsibility.<br><br>And these possible outcomes:<br><br><ul><li>My refusal to help may increase the burden on my mother and younger sister.</li><li>The dog's care and living conditions may not improve, continuing the cycle of neglect.</li><li>My relationship with my older sister may become more strained due to my stance.</li><li>My mother and younger sister may experience increased stress and frustration.</li><li>The dog may continue to suffer from a lack of proper training, attention, and care.</li><li>The living conditions in the apartment may deteriorate further without my assistance.</li></ul><br><br>Are there other likely outcomes of the action that were not listed? If so, please enter them below.&nbsp;",
+                "QuestionText": "You have considered the following action:<br><br>I decide to ask her how she would prefer we proceed<br><br>And these possible outcomes:<br><br><ul><li>My girlfriend may feel valued and respected because I am considering her preferences in the decision-making process.</li><li>The conversation may lead to a mutual understanding of their relationship's future.</li><li>My girlfriend might experience stress or anxiety over the possibility of the relationship ending.</li><li>My girlfriend and I could decide to work on our relationship or to part ways amicably.</li><li>My girlfriend may appreciate the honesty, leading to a more open and truthful dialogue between us.</li><li>The discussion could result in my girlfriend feeling insecure about her ability to make a life for herself independently in a new country.</li><li>I may feel relieved for sharing my feelings and intentions, reducing my guilt over the situation.</li></ul><br><br>Are there other likely outcomes of the action that were not listed? If so, please enter them below.&nbsp;",
                 "DefaultChoices": false,
                 "DataExportTag": "Q18",
                 "QuestionType": "TE",

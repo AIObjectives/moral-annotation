@@ -1,7 +1,7 @@
 {
     "SurveyEntry": {
         "SurveyID": "SV_6KETqTdatNVMQPc",
-        "SurveyName": "Annotation Validation Study [qualtrics_scenarios_1_choice_3]",
+        "SurveyName": "Annotation Validation Study [qualtrics_scenarios_1_choice_2]",
         "SurveyDescription": null,
         "SurveyOwnerID": "UR_2ZPwzuRYfhqZWYR",
         "SurveyBrandID": "qualtricsxmhxsm8yb3m",
@@ -152,25 +152,22 @@
                         "LoopingOptions": {
                             "Static": {
                                 "1": {
-                                    "1": "My girlfriend may feel valued and respected because I am considering her preferences in the decision-making process."
+                                    "1": "My girlfriend may experience emotional distress."
                                 },
                                 "2": {
-                                    "1": "The conversation may lead to a mutual understanding of their relationship's future."
+                                    "1": "I may feel a sense of relief or guilt."
                                 },
                                 "3": {
-                                    "1": "My girlfriend might experience stress or anxiety over the possibility of the relationship ending."
+                                    "1": "My girlfriend may face financial difficulties."
                                 },
                                 "4": {
-                                    "1": "My girlfriend and I could decide to work on our relationship or to part ways amicably."
+                                    "1": "My girlfriend may struggle with her school commitments without transportation assistance."
                                 },
                                 "5": {
-                                    "1": "My girlfriend may appreciate the honesty, leading to a more open and truthful dialogue between us."
+                                    "1": "My girlfriend may encounter challenges in daily living due to her poor English skills."
                                 },
                                 "6": {
-                                    "1": "The discussion could result in my girlfriend feeling insecure about her ability to make a life for herself independently in a new country."
-                                },
-                                "7": {
-                                    "1": "I may feel relieved for sharing my feelings and intentions, reducing my guilt over the situation."
+                                    "1": "I may start to pursue personal goals or relationships that align more closely with my vision for the future."
                                 }
                             },
                             "Randomization": "All"
@@ -536,7 +533,7 @@
             "SecondaryAttribute": "Below is the same scenario and action again.\u00a0 Scenario:SCENARIO_TEXT Action Choice: CHOICE_TEXT I..",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below is the same scenario and action again.&nbsp;<br><br><b><i><u>\nScenario:</u><br></i>I (24M) have been with my girlfriend(29F) for a little over a year now, and we have been living together for the past ~6 months. She is originally from Taiwan, and is trying to make a life for herself here. I realized a long time ago that I didn't see a future with her. However, I have stayed with her because I just can't imagine breaking up with her, and her having to make a life for herself here with little to no help. I pay for our rent (I have a good job for a 24 y/o, so its not really a financial burden), take her to school, and do the majority of the cooking. I feel like she would have a hard time surviving in America without someone to help her out (mainly financially). Her English is extremely poor, so she has a lot of difficulty talking to people here. I feel really guilty about this situation, because I feel like I am wasting her time. I figured I could stay with her up until the point she can stand on her own two feet here and support herself. She is an extremely kind person, and I want the best for her. I want her to find someone who truly loves her and wants to build a future with her. </b><br><u><b><br><i>Action Choice:\n</i><br></b></u><b>I decide toask her how she would prefer we proceed<br></b><br><br>In your opinion, to what extent is this action characterized by the following values and anti-values?<br><br>",
+                "QuestionText": "Below is the same scenario and action again.&nbsp;<br><br><b><i><u>\nScenario:</u><br></i>I (24M) have been with my girlfriend(29F) for a little over a year now, and we have been living together for the past ~6 months. She is originally from Taiwan, and is trying to make a life for herself here. I realized a long time ago that I didn't see a future with her. However, I have stayed with her because I just can't imagine breaking up with her, and her having to make a life for herself here with little to no help. I pay for our rent (I have a good job for a 24 y/o, so its not really a financial burden), take her to school, and do the majority of the cooking. I feel like she would have a hard time surviving in America without someone to help her out (mainly financially). Her English is extremely poor, so she has a lot of difficulty talking to people here. I feel really guilty about this situation, because I feel like I am wasting her time. I figured I could stay with her up until the point she can stand on her own two feet here and support herself. She is an extremely kind person, and I want the best for her. I want her to find someone who truly loves her and wants to build a future with her. </b><br><u><b><br><i>Action Choice:\n</i><br></b></u><b>I decide to break up with her<br></b><br><br>In your opinion, to what extent is this action characterized by the following values and anti-values?<br><br>",
                 "DefaultChoices": false,
                 "DataExportTag": "values_q",
                 "QuestionType": "Slider",
@@ -559,7 +556,13 @@
                         "2": 0.5,
                         "3": 0.5,
                         "4": 0.5,
-                        "5": 0.5
+                        "5": 0.5,
+                        "6": 0.5,
+                        "7": 0.5,
+                        "8": 0.5,
+                        "9": 0.5,
+                        "10": 0.5,
+                        "11": 0.5
                     },
                     "NotApplicable": false,
                     "MobileFirst": true
@@ -567,19 +570,37 @@
                 "QuestionDescription": "Below is the same scenario and action again.\u00a0 Scenario:SCENARIO_TEXT Action Choice: CHOICE_TEXT I...",
                 "Choices": {
                     "1": {
-                        "Display": "respect"
+                        "Display": "honesty"
                     },
                     "2": {
-                        "Display": "communication"
+                        "Display": "autonomy"
                     },
                     "3": {
-                        "Display": "empathy"
+                        "Display": "respect"
                     },
                     "4": {
-                        "Display": "consideration"
+                        "Display": "courage"
                     },
                     "5": {
-                        "Display": "collaboration"
+                        "Display": "self-respect"
+                    },
+                    "6": {
+                        "Display": "personal growth"
+                    },
+                    "7": {
+                        "Display": "commitment"
+                    },
+                    "8": {
+                        "Display": "empathy"
+                    },
+                    "9": {
+                        "Display": "loyalty"
+                    },
+                    "10": {
+                        "Display": "patience"
+                    },
+                    "11": {
+                        "Display": "communication"
                     }
                 },
                 "ChoiceOrder": [
@@ -587,7 +608,13 @@
                     "2",
                     "3",
                     "4",
-                    "5"
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11"
                 ],
                 "Randomization": {
                     "Advanced": null,
@@ -603,7 +630,7 @@
                 },
                 "GradingData": [],
                 "Language": [],
-                "NextChoiceId": 6,
+                "NextChoiceId": 12,
                 "NextAnswerId": 6,
                 "Labels": {
                     "1": {
@@ -623,7 +650,7 @@
             "SecondaryAttribute": "Below is the scenario you will be asked to evaluate. Scenario: SCENARIO_TEXT Action Choice: CHOIC...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below is the scenario you will be asked to evaluate.<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">I (24M) have been with my girlfriend(29F) for a little over a year now, and we have been living together for the past ~6 months. She is originally from Taiwan, and is trying to make a life for herself here. I realized a long time ago that I didn't see a future with her. However, I have stayed with her because I just can't imagine breaking up with her, and her having to make a life for herself here with little to no help. I pay for our rent (I have a good job for a 24 y/o, so its not really a financial burden), take her to school, and do the majority of the cooking. I feel like she would have a hard time surviving in America without someone to help her out (mainly financially). Her English is extremely poor, so she has a lot of difficulty talking to people here. I feel really guilty about this situation, because I feel like I am wasting her time. I figured I could stay with her up until the point she can stand on her own two feet here and support herself. She is an extremely kind person, and I want the best for her. I want her to find someone who truly loves her and wants to build a future with her. </div></strong></em><br>\n<em><strong><u>Action Choice</u>: <div id=\"choice\">I decide toask her how she would prefer we proceed</div></strong></em>",
+                "QuestionText": "Below is the scenario you will be asked to evaluate.<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">I (24M) have been with my girlfriend(29F) for a little over a year now, and we have been living together for the past ~6 months. She is originally from Taiwan, and is trying to make a life for herself here. I realized a long time ago that I didn't see a future with her. However, I have stayed with her because I just can't imagine breaking up with her, and her having to make a life for herself here with little to no help. I pay for our rent (I have a good job for a 24 y/o, so its not really a financial burden), take her to school, and do the majority of the cooking. I feel like she would have a hard time surviving in America without someone to help her out (mainly financially). Her English is extremely poor, so she has a lot of difficulty talking to people here. I feel really guilty about this situation, because I feel like I am wasting her time. I figured I could stay with her up until the point she can stand on her own two feet here and support herself. She is an extremely kind person, and I want the best for her. I want her to find someone who truly loves her and wants to build a future with her. </div></strong></em><br>\n<em><strong><u>Action Choice</u>: <div id=\"choice\">I decide to break up with her</div></strong></em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -661,7 +688,7 @@
             "SecondaryAttribute": "Below you will see the scenario, action choice, and outcome: Scenario: SCENARIO_TEXT Action Choic...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome</span>:<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">I (24M) have been with my girlfriend(29F) for a little over a year now, and we have been living together for the past ~6 months. She is originally from Taiwan, and is trying to make a life for herself here. I realized a long time ago that I didn't see a future with her. However, I have stayed with her because I just can't imagine breaking up with her, and her having to make a life for herself here with little to no help. I pay for our rent (I have a good job for a 24 y/o, so its not really a financial burden), take her to school, and do the majority of the cooking. I feel like she would have a hard time surviving in America without someone to help her out (mainly financially). Her English is extremely poor, so she has a lot of difficulty talking to people here. I feel really guilty about this situation, because I feel like I am wasting her time. I figured I could stay with her up until the point she can stand on her own two feet here and support herself. She is an extremely kind person, and I want the best for her. I want her to find someone who truly loves her and wants to build a future with her. </div><div id=\"scenario\"><br></div><div id=\"scenario\"><u>\nAction Choice</u>:</div><div id=\"scenario\">I decide toask her how she would prefer we proceed<br></div><br>\n<span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
+                "QuestionText": "Below you will see the scenario, action choice, and <span style=\"color:#8e44ad;\">outcome</span>:<br>\n<br>\n<em><strong><u>Scenario</u>: <div id=\"scenario\">I (24M) have been with my girlfriend(29F) for a little over a year now, and we have been living together for the past ~6 months. She is originally from Taiwan, and is trying to make a life for herself here. I realized a long time ago that I didn't see a future with her. However, I have stayed with her because I just can't imagine breaking up with her, and her having to make a life for herself here with little to no help. I pay for our rent (I have a good job for a 24 y/o, so its not really a financial burden), take her to school, and do the majority of the cooking. I feel like she would have a hard time surviving in America without someone to help her out (mainly financially). Her English is extremely poor, so she has a lot of difficulty talking to people here. I feel really guilty about this situation, because I feel like I am wasting her time. I figured I could stay with her up until the point she can stand on her own two feet here and support herself. She is an extremely kind person, and I want the best for her. I want her to find someone who truly loves her and wants to build a future with her. </div><div id=\"scenario\"><br></div><div id=\"scenario\"><u>\nAction Choice</u>:</div><div id=\"scenario\">I decide to break up with her<br></div><br>\n<span style=\"color:#8e44ad;\"><u>Outcome</u>:<div id=\"outcome\">${lm://Field/1}</div></span></strong></em>",
                 "DefaultChoices": false,
                 "DataExportTag": "scenario",
                 "QuestionType": "DB",
@@ -1327,7 +1354,7 @@
             "SecondaryAttribute": "You have considered the following action: CHOICE_TEXT And these possible outcomes: OUTCOME_LIST A...",
             "TertiaryAttribute": null,
             "Payload": {
-                "QuestionText": "You have considered the following action:<br><br>I decide toask her how she would prefer we proceed<br><br>And these possible outcomes:<br><br><ul><li>My girlfriend may feel valued and respected because I am considering her preferences in the decision-making process.</li><li>The conversation may lead to a mutual understanding of their relationship's future.</li><li>My girlfriend might experience stress or anxiety over the possibility of the relationship ending.</li><li>My girlfriend and I could decide to work on our relationship or to part ways amicably.</li><li>My girlfriend may appreciate the honesty, leading to a more open and truthful dialogue between us.</li><li>The discussion could result in my girlfriend feeling insecure about her ability to make a life for herself independently in a new country.</li><li>I may feel relieved for sharing my feelings and intentions, reducing my guilt over the situation.</li></ul><br><br>Are there other likely outcomes of the action that were not listed? If so, please enter them below.&nbsp;",
+                "QuestionText": "You have considered the following action:<br><br>I decide to break up with her<br><br>And these possible outcomes:<br><br><ul><li>My girlfriend may experience emotional distress.</li><li>I may feel a sense of relief or guilt.</li><li>My girlfriend may face financial difficulties.</li><li>My girlfriend may struggle with her school commitments without transportation assistance.</li><li>My girlfriend may encounter challenges in daily living due to her poor English skills.</li><li>I may start to pursue personal goals or relationships that align more closely with my vision for the future.</li></ul><br><br>Are there other likely outcomes of the action that were not listed? If so, please enter them below.&nbsp;",
                 "DefaultChoices": false,
                 "DataExportTag": "Q18",
                 "QuestionType": "TE",
